@@ -1,0 +1,95 @@
+[2016-12-16 13:40:58][6560][INFO]
+[2016-12-16 13:40:58][6560][INFO]***********************************
+[2016-12-16 13:40:58][6560][INFO]***** interface request start *****
+[2016-12-16 13:40:58][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866858</CreateTime>    <MsgType><![CDATA[event]]></MsgType>    <Event><![CDATA[subscribe]]></Event>    <EventKey><![CDATA[]]></EventKey>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:40:58][6560][INFO]get:array (
+)
+[2016-12-16 13:40:58][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866858</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[only support text message]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:40:58][6560][INFO]***** interface request end *****
+[2016-12-16 13:40:58][6560][INFO]*********************************
+[2016-12-16 13:40:58][6560][INFO]
+[2016-12-16 13:40:58][6560][INFO]cost time:1481866858.1502 warning
+[2016-12-16 13:41:10][6560][INFO]
+[2016-12-16 13:41:10][6560][INFO]***********************************
+[2016-12-16 13:41:10][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:10][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866871</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[adfaf]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:10][6560][INFO]get:array (
+)
+[2016-12-16 13:41:10][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866870</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[adfaf]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:10][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:10][6560][INFO]*********************************
+[2016-12-16 13:41:10][6560][INFO]
+[2016-12-16 13:41:10][6560][INFO]cost time:1481866870.9679 warning
+[2016-12-16 13:41:17][6560][INFO]
+[2016-12-16 13:41:17][6560][INFO]***********************************
+[2016-12-16 13:41:17][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:17][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866877</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:17][6560][INFO]get:array (
+)
+[2016-12-16 13:41:17][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866877</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[cccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:17][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:17][6560][INFO]*********************************
+[2016-12-16 13:41:17][6560][INFO]
+[2016-12-16 13:41:17][6560][INFO]cost time:1481866877.5113 warning
+[2016-12-16 13:41:27][6560][INFO]
+[2016-12-16 13:41:27][6560][INFO]***********************************
+[2016-12-16 13:41:27][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:27][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c11]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866887</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:27][6560][INFO]get:array (
+)
+[2016-12-16 13:41:27][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c11]]></FromUserName>
+  <CreateTime>1481866887</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[未实现]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:27][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:27][6560][INFO]*********************************
+[2016-12-16 13:41:27][6560][INFO]
+[2016-12-16 13:41:27][6560][INFO]cost time:1481866887.1018 warning
+[2016-12-16 13:41:35][6560][INFO]
+[2016-12-16 13:41:35][6560][INFO]***********************************
+[2016-12-16 13:41:35][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:35][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866895</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:35][6560][INFO]get:array (
+)
+[2016-12-16 13:41:35][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866895</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[cccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:35][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:35][6560][INFO]*********************************
+[2016-12-16 13:41:35][6560][INFO]
+[2016-12-16 13:41:35][6560][INFO]cost time:1481866895.5273 warning

@@ -1,8 +1,18 @@
 <?php
 /*** echo server**/
-define ("TOKEN","luoyefeihua");
+require_once "./menu.php";
+//define ("TOKEN","luoyefeihua");
+//define ("APPID","wx7a6961ece3321fb8");
+//define ("APPSECRET","11267260f1c632023db7ccf281f50a8a");		luoyefeihua
+define ("TOKEN","haidiyuntest");
+define ("APPID","wx9dc85eb8cd0752fc");
+define ("APPSECRET","7b09b4e138cb37a1b1b4a1413451a72d");		//haidiyun520 ,Zediel168168...
+
+
 //Get the param
 $wecharObj=new wechatCallbackapiTest();
+
+
 if(isset($_GET['echostr'])){
 	$wecharObj->valid();
 }else
@@ -24,13 +34,13 @@ class wechatCallbackapiTest
 		$signature=$_GET["signature"];
 		$timestamp=$_GET["timestamp"];
 		$nonce=$_GET["nonce"];
-		
+
 		$token=TOKEN;
 		$tmpArr=array($token,$timestamp,$nonce);
 		sort($tmpArr);
 		$tmpStr=implode($tmpArr);
 		$tmpStr=sha1($tmpStr);
-		
+
 		if($tmpStr==$signature){
 			return true;
 		}else
@@ -92,7 +102,7 @@ class wechatCallbackapiTest
 		$result=$this->transmitText($object,$content);
 		return $result;
 	}
-				
+
 	private function receiveText($object)
 	{
 		$keyword=trim($object->Content);
@@ -267,9 +277,9 @@ class wechatCallbackapiTest
 		$result=sprintf($textTpl,$object->FromUserName,$object->ToUserName,time());
 		return $result;
 	}
-		
-		
+
+
 }
-				
+
 ?>
 

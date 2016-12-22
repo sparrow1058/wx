@@ -1,0 +1,128 @@
+[2016-12-16 11:44:43][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][26][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 11:44:44][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][26][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 11:46:33][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][26][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 11:52:36][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][26][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 11:52:38][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][26][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 11:54:36][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][26][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 11:58:52][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][27][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 11:58:53][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][27][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 12:04:58][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][13][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 12:04:58][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][27][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 12:07:57][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][9][ERROR][EC_OTHTER]
+[2016-12-16 12:07:57][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][17][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 12:07:57][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][31][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 13:34:22][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][9][ERROR][EC_OTHTER]158518cb0a9ef397f2cbbb9e26b497c4b5fec8e5
+[2016-12-16 13:34:22][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][17][ERROR][EC_OTHTER]158518cb0a9ef397f2cbbb9e26b497c4b5fec8e5
+[2016-12-16 13:35:41][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][9][ERROR][EC_OTHTER]
+[2016-12-16 13:35:41][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][17][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 13:35:41][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][31][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 13:37:06][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]158518cb0a9ef397f2cbbb9e26b497c4b5fec8e5
+[2016-12-16 13:37:06][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]158518cb0a9ef397f2cbbb9e26b497c4b5fec8e5
+[2016-12-16 13:37:18][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-16 13:37:18][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 13:37:18][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][main][28][ERROR][EC_OTHER]malicicous: 127.0.0.1
+[2016-12-16 13:40:58][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-16 13:40:58][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 13:40:58][6560][INFO]
+[2016-12-16 13:40:58][6560][INFO]***********************************
+[2016-12-16 13:40:58][6560][INFO]***** interface request start *****
+[2016-12-16 13:40:58][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866858</CreateTime>    <MsgType><![CDATA[event]]></MsgType>    <Event><![CDATA[subscribe]]></Event>    <EventKey><![CDATA[]]></EventKey>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:40:58][6560][INFO]get:array (
+)
+[2016-12-16 13:40:58][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866858</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[only support text message]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:40:58][6560][INFO]***** interface request end *****
+[2016-12-16 13:40:58][6560][INFO]*********************************
+[2016-12-16 13:40:58][6560][INFO]
+[2016-12-16 13:40:58][6560][INFO]cost time:1481866858.1502 warning
+[2016-12-16 13:41:10][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-16 13:41:10][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 13:41:10][6560][INFO]
+[2016-12-16 13:41:10][6560][INFO]***********************************
+[2016-12-16 13:41:10][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:10][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866871</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[adfaf]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:10][6560][INFO]get:array (
+)
+[2016-12-16 13:41:10][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866870</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[adfaf]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:10][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:10][6560][INFO]*********************************
+[2016-12-16 13:41:10][6560][INFO]
+[2016-12-16 13:41:10][6560][INFO]cost time:1481866870.9679 warning
+[2016-12-16 13:41:17][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-16 13:41:17][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 13:41:17][6560][INFO]
+[2016-12-16 13:41:17][6560][INFO]***********************************
+[2016-12-16 13:41:17][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:17][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866877</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:17][6560][INFO]get:array (
+)
+[2016-12-16 13:41:17][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866877</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[cccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:17][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:17][6560][INFO]*********************************
+[2016-12-16 13:41:17][6560][INFO]
+[2016-12-16 13:41:17][6560][INFO]cost time:1481866877.5113 warning
+[2016-12-16 13:41:27][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-16 13:41:27][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 13:41:27][6560][INFO]
+[2016-12-16 13:41:27][6560][INFO]***********************************
+[2016-12-16 13:41:27][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:27][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c11]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866887</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:27][6560][INFO]get:array (
+)
+[2016-12-16 13:41:27][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c11]]></FromUserName>
+  <CreateTime>1481866887</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[未实现]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:27][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:27][6560][INFO]*********************************
+[2016-12-16 13:41:27][6560][INFO]
+[2016-12-16 13:41:27][6560][INFO]cost time:1481866887.1018 warning
+[2016-12-16 13:41:35][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-16 13:41:35][6560][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]fa96e6d6dcdf84bfe845c9123eef5aca58537fb5
+[2016-12-16 13:41:35][6560][INFO]
+[2016-12-16 13:41:35][6560][INFO]***********************************
+[2016-12-16 13:41:35][6560][INFO]***** interface request start *****
+[2016-12-16 13:41:35][6560][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1481866895</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-16 13:41:35][6560][INFO]get:array (
+)
+[2016-12-16 13:41:35][6560][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1481866895</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[cccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-16 13:41:35][6560][INFO]***** interface request end *****
+[2016-12-16 13:41:35][6560][INFO]*********************************
+[2016-12-16 13:41:35][6560][INFO]
+[2016-12-16 13:41:35][6560][INFO]cost time:1481866895.5273 warning
