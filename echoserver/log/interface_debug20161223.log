@@ -1,0 +1,225 @@
+[2016-12-23 14:02:54][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:10:33][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:10:33][6092][INFO]excute time: 1482473433078ms SQL[SET NAMES latin1]
+[2016-12-23 14:10:33][6092][INFO]SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:33][6092][INFO]excute time: 1482473433124ms SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:33][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM test WHERE 1
+[2016-12-23 14:10:33][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482473433126(ms)SQL[SELECT * FROM test WHERE 1]
+[2016-12-23 14:10:34][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:10:34][6092][INFO]excute time: 1482473434365ms SQL[SET NAMES latin1]
+[2016-12-23 14:10:34][6092][INFO]SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:34][6092][INFO]excute time: 1482473434403ms SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:34][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM test WHERE 1
+[2016-12-23 14:10:34][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482473434404(ms)SQL[SELECT * FROM test WHERE 1]
+[2016-12-23 14:10:34][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:10:34][6092][INFO]excute time: 1482473434977ms SQL[SET NAMES latin1]
+[2016-12-23 14:10:34][6092][INFO]SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:35][6092][INFO]excute time: 1482473435007ms SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:35][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM test WHERE 1
+[2016-12-23 14:10:35][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482473435009(ms)SQL[SELECT * FROM test WHERE 1]
+[2016-12-23 14:10:35][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:10:35][6092][INFO]excute time: 1482473435221ms SQL[SET NAMES latin1]
+[2016-12-23 14:10:35][6092][INFO]SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:35][6092][INFO]excute time: 1482473435253ms SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:35][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM test WHERE 1
+[2016-12-23 14:10:35][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482473435253(ms)SQL[SELECT * FROM test WHERE 1]
+[2016-12-23 14:10:35][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:10:35][6092][INFO]excute time: 1482473435431ms SQL[SET NAMES latin1]
+[2016-12-23 14:10:35][6092][INFO]SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:35][6092][INFO]excute time: 1482473435466ms SQL[INSERT INTO test SET `id` = '1', `name` = 'tom']
+[2016-12-23 14:10:35][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM test WHERE 1
+[2016-12-23 14:10:35][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482473435466(ms)SQL[SELECT * FROM test WHERE 1]
+[2016-12-23 14:10:59][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:10:59][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:10:59][6092][INFO]excute time: 1482473459754ms SQL[SET NAMES latin1]
+[2016-12-23 14:10:59][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:10:59][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][53][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:10:59][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][34][DEBUG][1500]get token error
+[2016-12-23 14:10:59][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:10:59][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:18:47][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:18:47][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:18:47][6092][INFO]excute time: 1482473927421ms SQL[SET NAMES latin1]
+[2016-12-23 14:18:47][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:18:47][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][53][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:18:47][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][34][DEBUG][1500]get token error
+[2016-12-23 14:18:47][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:18:47][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:22:12][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:22:12][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:22:12][6092][INFO]excute time: 1482474132502ms SQL[SET NAMES latin1]
+[2016-12-23 14:22:12][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:22:12][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:22:12][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][34][DEBUG][1500]get token error
+[2016-12-23 14:22:12][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:22:12][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:24:17][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:24:17][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:24:17][6092][INFO]excute time: 1482474257421ms SQL[SET NAMES latin1]
+[2016-12-23 14:24:17][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:24:17][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:24:17][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 14:24:17][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:24:17][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:24:18][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:24:18][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:24:18][6092][INFO]excute time: 1482474258900ms SQL[SET NAMES latin1]
+[2016-12-23 14:24:18][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:24:18][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:24:18][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 14:24:18][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:24:18][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:51:18][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:51:18][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:51:18][6092][INFO]excute time: 1482475878166ms SQL[SET NAMES latin1]
+[2016-12-23 14:51:18][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:51:18][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:51:18][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 14:51:18][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:51:18][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:55:24][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:55:24][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:55:24][6092][INFO]excute time: 1482476124118ms SQL[SET NAMES latin1]
+[2016-12-23 14:55:24][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:55:24][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:55:24][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 14:55:24][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:55:24][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:55:25][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:55:25][6092][INFO]excute time: 1482476125067ms SQL[SET NAMES latin1]
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 14:55:25][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 14:55:25][6092][INFO]excute time: 1482476125594ms SQL[SET NAMES latin1]
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 17:19:43][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:19:43][6092][INFO]excute time: 1482484783035ms SQL[SET NAMES latin1]
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 17:19:43][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:19:43][6092][INFO]excute time: 1482484783957ms SQL[SET NAMES latin1]
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 17:25:09][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:25:09][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:25:09][6092][INFO]
+[2016-12-23 17:25:09][6092][INFO]***********************************
+[2016-12-23 17:25:09][6092][INFO]***** interface request start *****
+[2016-12-23 17:25:09][6092][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482485109</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-23 17:25:09][6092][INFO]get:array (
+)
+[2016-12-23 17:26:05][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:26:05][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:26:05][6092][INFO]
+[2016-12-23 17:26:05][6092][INFO]***********************************
+[2016-12-23 17:26:05][6092][INFO]***** interface request start *****
+[2016-12-23 17:26:05][6092][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482485165</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-23 17:26:05][6092][INFO]get:array (
+)
+[2016-12-23 17:26:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:26:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:26:31][6092][INFO]
+[2016-12-23 17:26:31][6092][INFO]***********************************
+[2016-12-23 17:26:31][6092][INFO]***** interface request start *****
+[2016-12-23 17:26:31][6092][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482485192</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-23 17:26:31][6092][INFO]get:array (
+)
+[2016-12-23 17:28:02][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:28:02][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:28:02][6092][INFO]
+[2016-12-23 17:28:02][6092][INFO]***********************************
+[2016-12-23 17:28:02][6092][INFO]***** interface request start *****
+[2016-12-23 17:28:02][6092][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482485282</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-23 17:28:02][6092][INFO]get:array (
+)
+[2016-12-23 17:28:29][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:28:29][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:28:29][6092][INFO]
+[2016-12-23 17:28:29][6092][INFO]***********************************
+[2016-12-23 17:28:29][6092][INFO]***** interface request start *****
+[2016-12-23 17:28:29][6092][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482485310</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-23 17:28:29][6092][INFO]get:array (
+)
+[2016-12-23 17:29:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:29:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:29:31][6092][INFO]
+[2016-12-23 17:29:31][6092][INFO]***********************************
+[2016-12-23 17:29:31][6092][INFO]***** interface request start *****
+[2016-12-23 17:29:31][6092][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482485371</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-23 17:29:31][6092][INFO]get:array (
+)
+[2016-12-23 17:29:31][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:29:31][6092][INFO]excute time: 1482485371428ms SQL[SET NAMES latin1]
+[2016-12-23 17:29:31][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-23 17:29:31][6092][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorQuery fail:
+[2016-12-23 17:29:31][6092][INFO]response:
+[2016-12-23 17:29:31][6092][INFO]***** interface request end *****
+[2016-12-23 17:29:31][6092][INFO]*********************************
+[2016-12-23 17:29:31][6092][INFO]
+[2016-12-23 17:29:31][6092][INFO]cost time:1482485371.43 warning
+[2016-12-23 17:32:17][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:32:17][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:32:17][6092][INFO]
+[2016-12-23 17:32:17][6092][INFO]***********************************
+[2016-12-23 17:32:17][6092][INFO]***** interface request start *****
+[2016-12-23 17:32:17][6092][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482485537</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-23 17:32:17][6092][INFO]get:array (
+)
+[2016-12-23 17:32:17][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:32:17][6092][INFO]excute time: 1482485537320ms SQL[SET NAMES latin1]
+[2016-12-23 17:32:17][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-23 17:32:17][6092][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorQuery fail:
+[2016-12-23 17:32:17][6092][INFO]response:
+[2016-12-23 17:32:17][6092][INFO]***** interface request end *****
+[2016-12-23 17:32:17][6092][INFO]*********************************
+[2016-12-23 17:32:17][6092][INFO]
+[2016-12-23 17:32:17][6092][INFO]cost time:1482485537.3224 warning
+[2016-12-23 17:33:30][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 17:33:30][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:33:30][6092][INFO]excute time: 1482485610212ms SQL[SET NAMES latin1]
+[2016-12-23 17:33:30][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 17:33:30][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:33:30][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 17:33:30][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 17:33:30][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 17:33:31][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 17:33:31][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:33:31][6092][INFO]excute time: 1482485611904ms SQL[SET NAMES latin1]
+[2016-12-23 17:33:31][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 17:33:31][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:33:31][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 17:33:31][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 17:33:31][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 17:39:36][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 17:39:36][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:39:36][6092][INFO]excute time: 1482485976558ms SQL[SET NAMES latin1]
+[2016-12-23 17:39:36][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 17:39:36][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:39:36][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 17:39:36][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 17:39:36][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************
+[2016-12-23 17:39:37][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][4][DEBUG][0]*************start menu***
+[2016-12-23 17:39:37][6092][INFO]SQL[SET NAMES latin1]
+[2016-12-23 17:39:37][6092][INFO]excute time: 1482485977792ms SQL[SET NAMES latin1]
+[2016-12-23 17:39:37][6092][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM ctoken WHERE 1AND `appid` = 'wx9dc85eb8cd0752fc'
+[2016-12-23 17:39:37][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:39:37][6092][C:\xampp\htdocs\weixin\echoserver\class\menuStub.php][reqMenu][35][DEBUG][1500]get token error
+[2016-12-23 17:39:37][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][41][DEBUG][0]Create menu fail!
+[2016-12-23 17:39:37][6092][C:\xampp\htdocs\weixin\echoserver\bin\menu.php][main][47][DEBUG][0]**************end menu***************

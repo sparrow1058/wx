@@ -73,8 +73,33 @@ function getIp()
 	}
 	return $realip;
 }	
-
-
+function getMillisecond() {
+	list($t1, $t2) = explode(' ', microtime());
+	return (float)sprintf('%.0f',(floatval($t1)+floatval($t2))*1000);
+}
+function doCurlGetRequest($url,$data,$timeout=5){
+	if($url=="" || $timeout<=0){
+		return false;
+	}
+	$url=$url.'?'.http_build_query($data);
+	$con=curl_init((string)$url);
+	curl_setopt($con,CURLOPT_HEADER,false);
+	curl_setopt($con,CURLOPT_RETURNTRANSFER,true);
+	curl_setopt($con,CURLOPT_TIMEOUT,(int)$timeout);
+	return curl_exec($con);
+}
+function doCurlPostRequest($url,$requestString,$timeout=5){
+	if($url==""||$requestString==""||$timeout<=0){
+		return false;
+	}
+	$con=curl_init((string)$url);
+	curl_setopt($con,CURLOPT_HEADER,false);
+	curl_setopt($con,CURLOPT_POSTFIELDS,$requestString);
+	curl_setopt($con,CURLOPT_POST,true);
+	curl_setopt($con,CURLOPT_RETURNTRANSFER,true);
+	curl_setopt($con,CURLOPT_TIMEOUT,(int)$timeout);
+	return curl_exec($con);
+}
 
 
 

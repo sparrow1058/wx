@@ -1,0 +1,31 @@
+[2016-12-23 14:10:59][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][53][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:18:47][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][53][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:22:12][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:24:17][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:24:18][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:51:18][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:55:24][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 14:55:25][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:19:43][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:25:09][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:25:09][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:26:05][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:26:05][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:26:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:26:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:28:02][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:28:02][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:28:29][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:28:29][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:29:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:29:31][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:29:31][6092][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorQuery fail:
+[2016-12-23 17:32:17][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-23 17:32:17][6092][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-23 17:32:17][6092][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorQuery fail:
+[2016-12-23 17:33:30][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:33:31][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:39:36][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:
+[2016-12-23 17:39:37][6092][C:\xampp\htdocs\weixin\echoserver\class\tokenStub.php][getToken][55][ERROR][1100]operate ctoken error! msg:Query fail:

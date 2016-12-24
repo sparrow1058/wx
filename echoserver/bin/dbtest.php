@@ -1,7 +1,7 @@
 <?php
-require_once dirname(__FILE__).'/common/STO.php';
+require_once dirname(__FILE__).'/../common/Common.php';
 try{
-	$objSTO=new STO();
+	$objSTO=new SingleTableOperation();
 	$objSTO->setTableName('test');
 	$objSTO->addObject(array('id'=>1,'name'=>'tom'));
 	

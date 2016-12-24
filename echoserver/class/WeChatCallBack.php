@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/../common/GlobalDefine.php';
+require_once dirname(__FILE__).'/../common/Common.php';
 class WeChatCallBack{
 	protected $_postObject;
 	protected $_fromUserName;

@@ -1,0 +1,1055 @@
+[2016-12-24 10:08:46][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:08:46][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:08:46][4728][INFO]
+[2016-12-24 10:08:46][4728][INFO]***********************************
+[2016-12-24 10:08:46][4728][INFO]***** interface request start *****
+[2016-12-24 10:08:46][4728][INFO]request:
+[2016-12-24 10:08:46][4728][INFO]get:array (
+)
+[2016-12-24 10:08:46][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][main][66][ERROR][EC_OK]error input!
+[2016-12-24 10:08:46][4728][INFO]***********interface request end***************
+[2016-12-24 10:08:46][4728][INFO]************************************************
+[2016-12-24 10:08:46][4728][INFO]
+[2016-12-24 10:10:39][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]e25344b8988037e2dbdd31c313029bd7c5e552f0
+[2016-12-24 10:10:39][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]e25344b8988037e2dbdd31c313029bd7c5e552f0
+[2016-12-24 10:10:45][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:10:45][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:10:45][4728][INFO]
+[2016-12-24 10:10:45][4728][INFO]***********************************
+[2016-12-24 10:10:45][4728][INFO]***** interface request start *****
+[2016-12-24 10:10:45][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482545445</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:10:45][4728][INFO]get:array (
+)
+[2016-12-24 10:10:45][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:10:45][4728][INFO]excute time: 1482545445156ms SQL[SET NAMES latin1]
+[2016-12-24 10:10:45][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-24 10:10:45][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorQuery fail:
+[2016-12-24 10:10:45][4728][INFO]response:
+[2016-12-24 10:10:45][4728][INFO]***** interface request end *****
+[2016-12-24 10:10:45][4728][INFO]*********************************
+[2016-12-24 10:10:45][4728][INFO]
+[2016-12-24 10:10:45][4728][INFO]cost time:1482545445.1634 warning
+[2016-12-24 10:26:09][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:26:09][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:26:09][4728][INFO]
+[2016-12-24 10:26:09][4728][INFO]***********************************
+[2016-12-24 10:26:09][4728][INFO]***** interface request start *****
+[2016-12-24 10:26:09][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482546368</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:26:09][4728][INFO]get:array (
+)
+[2016-12-24 10:26:09][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:26:09][4728][INFO]excute time: 1482546369085ms SQL[SET NAMES latin1]
+[2016-12-24 10:26:09][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-24 10:26:09][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorQuery fail:
+[2016-12-24 10:26:09][4728][INFO]response:
+[2016-12-24 10:26:09][4728][INFO]***** interface request end *****
+[2016-12-24 10:26:09][4728][INFO]*********************************
+[2016-12-24 10:26:09][4728][INFO]
+[2016-12-24 10:26:09][4728][INFO]cost time:1482546369.0872 warning
+[2016-12-24 10:32:01][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:32:01][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:32:01][4728][INFO]
+[2016-12-24 10:32:01][4728][INFO]***********************************
+[2016-12-24 10:32:01][4728][INFO]***** interface request start *****
+[2016-12-24 10:32:01][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482546721</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:32:01][4728][INFO]get:array (
+)
+[2016-12-24 10:32:01][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:32:01][4728][INFO]excute time: 1482546721613ms SQL[SET NAMES latin1]
+[2016-12-24 10:32:01][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-24 10:32:01][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorQuery fail:
+[2016-12-24 10:32:01][4728][INFO]response:
+[2016-12-24 10:32:01][4728][INFO]***** interface request end *****
+[2016-12-24 10:32:01][4728][INFO]*********************************
+[2016-12-24 10:32:01][4728][INFO]
+[2016-12-24 10:32:01][4728][INFO]cost time:1482546721.6154 warning
+[2016-12-24 10:34:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:34:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:34:35][4728][INFO]
+[2016-12-24 10:34:35][4728][INFO]***********************************
+[2016-12-24 10:34:35][4728][INFO]***** interface request start *****
+[2016-12-24 10:34:35][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482546875</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:34:35][4728][INFO]get:array (
+)
+[2016-12-24 10:34:35][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:34:35][4728][INFO]excute time: 1482546875409ms SQL[SET NAMES latin1]
+[2016-12-24 10:34:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-24 10:34:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482546875410(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs']
+[2016-12-24 10:34:35][4728][INFO]SQL[INSERT INTO userinput SET `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs']
+[2016-12-24 10:34:35][4728][INFO]excute time: 1482546875443ms SQL[INSERT INTO userinput SET `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs']
+[2016-12-24 10:34:35][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482546875</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[?]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 10:34:35][4728][INFO]***** interface request end *****
+[2016-12-24 10:34:35][4728][INFO]*********************************
+[2016-12-24 10:34:35][4728][INFO]
+[2016-12-24 10:34:35][4728][INFO]cost time:1482546875.4442 warning
+[2016-12-24 10:34:45][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:34:45][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:34:45][4728][INFO]
+[2016-12-24 10:34:45][4728][INFO]***********************************
+[2016-12-24 10:34:45][4728][INFO]***** interface request start *****
+[2016-12-24 10:34:45][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482546885</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:34:45][4728][INFO]get:array (
+)
+[2016-12-24 10:34:45][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:34:45][4728][INFO]excute time: 1482546885228ms SQL[SET NAMES latin1]
+[2016-12-24 10:34:45][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-24 10:34:45][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482546885229(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs']
+[2016-12-24 10:37:42][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:37:42][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:37:42][4728][INFO]
+[2016-12-24 10:37:42][4728][INFO]***********************************
+[2016-12-24 10:37:42][4728][INFO]***** interface request start *****
+[2016-12-24 10:37:42][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482547062</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:37:42][4728][INFO]get:array (
+)
+[2016-12-24 10:37:42][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:37:42][4728][INFO]excute time: 1482547062632ms SQL[SET NAMES latin1]
+[2016-12-24 10:37:42][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-24 10:37:42][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547062634(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs']
+[2016-12-24 10:37:42][4728][INFO]SQL[UPDATE `userinput` SET`input` = '?' WHERE 1  AND  `userId` = `ojpX_jig-gyi3_Q9fHXQ4rdHniQs` ]
+[2016-12-24 10:37:42][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' in 'where clause'
+[2016-12-24 10:37:42][4728][INFO]response:
+[2016-12-24 10:37:42][4728][INFO]***** interface request end *****
+[2016-12-24 10:37:42][4728][INFO]*********************************
+[2016-12-24 10:37:42][4728][INFO]
+[2016-12-24 10:37:42][4728][INFO]cost time:1482547062.6359 warning
+[2016-12-24 10:37:56][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:37:56][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:37:56][4728][INFO]
+[2016-12-24 10:37:56][4728][INFO]***********************************
+[2016-12-24 10:37:56][4728][INFO]***** interface request start *****
+[2016-12-24 10:37:56][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpX_jig-gyi3_Q9fHXQ4rdHniQs]]></FromUserName>    <CreateTime>1482547077</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:37:56][4728][INFO]get:array (
+)
+[2016-12-24 10:37:56][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:37:56][4728][INFO]excute time: 1482547076654ms SQL[SET NAMES latin1]
+[2016-12-24 10:37:56][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs'
+[2016-12-24 10:37:56][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547076654(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs']
+[2016-12-24 10:37:56][4728][INFO]SQL[UPDATE `userinput` SET`input` = '?' WHERE 1  AND  `userId` = `ojpX_jig-gyi3_Q9fHXQ4rdHniQs` ]
+[2016-12-24 10:37:56][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' in 'where clause'
+[2016-12-24 10:37:56][4728][INFO]response:
+[2016-12-24 10:37:56][4728][INFO]***** interface request end *****
+[2016-12-24 10:37:56][4728][INFO]*********************************
+[2016-12-24 10:37:56][4728][INFO]
+[2016-12-24 10:37:56][4728][INFO]cost time:1482547076.6557 warning
+[2016-12-24 10:38:16][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:38:16][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:38:16][4728][INFO]
+[2016-12-24 10:38:16][4728][INFO]***********************************
+[2016-12-24 10:38:16][4728][INFO]***** interface request start *****
+[2016-12-24 10:38:16][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547096</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:38:16][4728][INFO]get:array (
+)
+[2016-12-24 10:38:16][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:38:16][4728][INFO]excute time: 1482547096190ms SQL[SET NAMES latin1]
+[2016-12-24 10:38:16][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:38:16][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547096191(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:38:16][4728][INFO]SQL[INSERT INTO userinput SET `userId` = 'ojpXaaaaa']
+[2016-12-24 10:38:16][4728][INFO]excute time: 1482547096231ms SQL[INSERT INTO userinput SET `userId` = 'ojpXaaaaa']
+[2016-12-24 10:38:16][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482547096</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[?]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 10:38:16][4728][INFO]***** interface request end *****
+[2016-12-24 10:38:16][4728][INFO]*********************************
+[2016-12-24 10:38:16][4728][INFO]
+[2016-12-24 10:38:16][4728][INFO]cost time:1482547096.2318 warning
+[2016-12-24 10:38:25][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:38:25][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:38:25][4728][INFO]
+[2016-12-24 10:38:25][4728][INFO]***********************************
+[2016-12-24 10:38:25][4728][INFO]***** interface request start *****
+[2016-12-24 10:38:25][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547105</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:38:25][4728][INFO]get:array (
+)
+[2016-12-24 10:38:25][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:38:25][4728][INFO]excute time: 1482547105028ms SQL[SET NAMES latin1]
+[2016-12-24 10:38:25][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:38:25][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547105029(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:38:25][4728][INFO]SQL[UPDATE `userinput` SET`input` = '?' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:38:25][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:38:25][4728][INFO]response:
+[2016-12-24 10:38:25][4728][INFO]***** interface request end *****
+[2016-12-24 10:38:25][4728][INFO]*********************************
+[2016-12-24 10:38:25][4728][INFO]
+[2016-12-24 10:38:25][4728][INFO]cost time:1482547105.0313 warning
+[2016-12-24 10:38:26][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:38:26][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:38:26][4728][INFO]
+[2016-12-24 10:38:26][4728][INFO]***********************************
+[2016-12-24 10:38:26][4728][INFO]***** interface request start *****
+[2016-12-24 10:38:26][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547107</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[?]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:38:26][4728][INFO]get:array (
+)
+[2016-12-24 10:38:26][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:38:26][4728][INFO]excute time: 1482547106934ms SQL[SET NAMES latin1]
+[2016-12-24 10:38:26][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:38:26][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547106935(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:38:26][4728][INFO]SQL[UPDATE `userinput` SET`input` = '?' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:38:26][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:38:26][4728][INFO]response:
+[2016-12-24 10:38:26][4728][INFO]***** interface request end *****
+[2016-12-24 10:38:26][4728][INFO]*********************************
+[2016-12-24 10:38:26][4728][INFO]
+[2016-12-24 10:38:26][4728][INFO]cost time:1482547106.9384 warning
+[2016-12-24 10:40:20][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:40:20][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:40:20][4728][INFO]
+[2016-12-24 10:40:20][4728][INFO]***********************************
+[2016-12-24 10:40:20][4728][INFO]***** interface request start *****
+[2016-12-24 10:40:20][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547220</CreateTime>    <MsgType><![CDATA[image]]></MsgType>    <PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummHn90t1mnaibYiaR8ljyicF3MW7XX3BLp1qZgUb7CtZ0DxqYFI4uAQH1FWs3hUicpibjF0pOqLEQyDMlg/0]]></PicUrl>    <MediaId><![CDATA[DBVFRIj29LB2hxuYpc0R6VLyxwgyCHZPbRj_IIs6YaGhutyXUKtFSDcSCPeoqUYr]]></MediaId>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:40:20][4728][INFO]get:array (
+)
+[2016-12-24 10:40:20][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][26][DEBUG][0]msgType:imageevent:
+[2016-12-24 10:40:20][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482547220</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[not text message]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 10:40:20][4728][INFO]***** interface request end *****
+[2016-12-24 10:40:20][4728][INFO]*********************************
+[2016-12-24 10:40:20][4728][INFO]
+[2016-12-24 10:40:20][4728][INFO]cost time:1482547220.3569 warning
+[2016-12-24 10:40:22][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:40:22][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:40:22][4728][INFO]
+[2016-12-24 10:40:22][4728][INFO]***********************************
+[2016-12-24 10:40:22][4728][INFO]***** interface request start *****
+[2016-12-24 10:40:22][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547222</CreateTime>    <MsgType><![CDATA[image]]></MsgType>    <PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummHn90t1mnaibYiaR8ljyicF3MW7XX3BLp1qZgUb7CtZ0DxqYFI4uAQH1FWs3hUicpibjF0pOqLEQyDMlg/0]]></PicUrl>    <MediaId><![CDATA[DBVFRIj29LB2hxuYpc0R6VLyxwgyCHZPbRj_IIs6YaGhutyXUKtFSDcSCPeoqUYr]]></MediaId>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:40:22][4728][INFO]get:array (
+)
+[2016-12-24 10:40:22][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][26][DEBUG][0]msgType:imageevent:
+[2016-12-24 10:40:22][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482547222</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[not text message]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 10:40:22][4728][INFO]***** interface request end *****
+[2016-12-24 10:40:22][4728][INFO]*********************************
+[2016-12-24 10:40:22][4728][INFO]
+[2016-12-24 10:40:22][4728][INFO]cost time:1482547222.5831 warning
+[2016-12-24 10:40:29][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:40:29][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:40:29][4728][INFO]
+[2016-12-24 10:40:29][4728][INFO]***********************************
+[2016-12-24 10:40:29][4728][INFO]***** interface request start *****
+[2016-12-24 10:40:29][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547230</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:40:29][4728][INFO]get:array (
+)
+[2016-12-24 10:40:29][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:40:29][4728][INFO]excute time: 1482547229843ms SQL[SET NAMES latin1]
+[2016-12-24 10:40:29][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:40:29][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547229844(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:40:29][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'cc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:40:29][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:40:29][4728][INFO]response:
+[2016-12-24 10:40:29][4728][INFO]***** interface request end *****
+[2016-12-24 10:40:29][4728][INFO]*********************************
+[2016-12-24 10:40:29][4728][INFO]
+[2016-12-24 10:40:29][4728][INFO]cost time:1482547229.8475 warning
+[2016-12-24 10:40:32][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:40:32][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:40:32][4728][INFO]
+[2016-12-24 10:40:32][4728][INFO]***********************************
+[2016-12-24 10:40:32][4728][INFO]***** interface request start *****
+[2016-12-24 10:40:32][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547232</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:40:32][4728][INFO]get:array (
+)
+[2016-12-24 10:40:32][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:40:32][4728][INFO]excute time: 1482547232393ms SQL[SET NAMES latin1]
+[2016-12-24 10:40:32][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:40:32][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547232394(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:40:32][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'cc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:40:32][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:40:32][4728][INFO]response:
+[2016-12-24 10:40:32][4728][INFO]***** interface request end *****
+[2016-12-24 10:40:32][4728][INFO]*********************************
+[2016-12-24 10:40:32][4728][INFO]
+[2016-12-24 10:40:32][4728][INFO]cost time:1482547232.3956 warning
+[2016-12-24 10:40:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:40:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:40:35][4728][INFO]
+[2016-12-24 10:40:35][4728][INFO]***********************************
+[2016-12-24 10:40:35][4728][INFO]***** interface request start *****
+[2016-12-24 10:40:35][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547235</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[cc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:40:35][4728][INFO]get:array (
+)
+[2016-12-24 10:40:35][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:40:35][4728][INFO]excute time: 1482547235099ms SQL[SET NAMES latin1]
+[2016-12-24 10:40:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:40:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547235100(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:40:35][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'cc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:40:35][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:40:35][4728][INFO]response:
+[2016-12-24 10:40:35][4728][INFO]***** interface request end *****
+[2016-12-24 10:40:35][4728][INFO]*********************************
+[2016-12-24 10:40:35][4728][INFO]
+[2016-12-24 10:40:35][4728][INFO]cost time:1482547235.1028 warning
+[2016-12-24 10:40:38][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:40:38][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:40:38][4728][INFO]
+[2016-12-24 10:40:38][4728][INFO]***********************************
+[2016-12-24 10:40:38][4728][INFO]***** interface request start *****
+[2016-12-24 10:40:38][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547238</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:40:38][4728][INFO]get:array (
+)
+[2016-12-24 10:40:38][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:40:38][4728][INFO]excute time: 1482547238027ms SQL[SET NAMES latin1]
+[2016-12-24 10:40:38][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:40:38][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547238028(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:40:38][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'ccccc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:40:38][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][60][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:40:38][4728][INFO]response:
+[2016-12-24 10:40:38][4728][INFO]***** interface request end *****
+[2016-12-24 10:40:38][4728][INFO]*********************************
+[2016-12-24 10:40:38][4728][INFO]
+[2016-12-24 10:40:38][4728][INFO]cost time:1482547238.0299 warning
+[2016-12-24 10:42:19][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:42:19][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:42:19][4728][INFO]
+[2016-12-24 10:42:19][4728][INFO]***********************************
+[2016-12-24 10:42:19][4728][INFO]***** interface request start *****
+[2016-12-24 10:42:19][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547339</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:42:19][4728][INFO]get:array (
+)
+[2016-12-24 10:42:19][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:42:19][4728][INFO]excute time: 1482547339445ms SQL[SET NAMES latin1]
+[2016-12-24 10:42:19][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:42:19][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547339446(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:42:19][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'ccccc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:42:19][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][61][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:42:19][4728][INFO]response:
+[2016-12-24 10:42:19][4728][INFO]***** interface request end *****
+[2016-12-24 10:42:19][4728][INFO]*********************************
+[2016-12-24 10:42:19][4728][INFO]
+[2016-12-24 10:42:19][4728][INFO]cost time:1482547339.4487 warning
+[2016-12-24 10:42:21][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:42:21][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:42:21][4728][INFO]
+[2016-12-24 10:42:21][4728][INFO]***********************************
+[2016-12-24 10:42:21][4728][INFO]***** interface request start *****
+[2016-12-24 10:42:21][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547341</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:42:21][4728][INFO]get:array (
+)
+[2016-12-24 10:42:21][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:42:21][4728][INFO]excute time: 1482547341314ms SQL[SET NAMES latin1]
+[2016-12-24 10:42:21][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:42:21][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547341315(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:42:21][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'ccccc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:42:21][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][61][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:42:21][4728][INFO]response:
+[2016-12-24 10:42:21][4728][INFO]***** interface request end *****
+[2016-12-24 10:42:21][4728][INFO]*********************************
+[2016-12-24 10:42:21][4728][INFO]
+[2016-12-24 10:42:21][4728][INFO]cost time:1482547341.3168 warning
+[2016-12-24 10:42:22][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:42:22][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:42:22][4728][INFO]
+[2016-12-24 10:42:22][4728][INFO]***********************************
+[2016-12-24 10:42:22][4728][INFO]***** interface request start *****
+[2016-12-24 10:42:22][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547342</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:42:22][4728][INFO]get:array (
+)
+[2016-12-24 10:42:22][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:42:22][4728][INFO]excute time: 1482547342386ms SQL[SET NAMES latin1]
+[2016-12-24 10:42:22][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:42:22][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547342387(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:42:22][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'ccccc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:42:22][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][61][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:42:22][4728][INFO]response:
+[2016-12-24 10:42:22][4728][INFO]***** interface request end *****
+[2016-12-24 10:42:22][4728][INFO]*********************************
+[2016-12-24 10:42:22][4728][INFO]
+[2016-12-24 10:42:22][4728][INFO]cost time:1482547342.3889 warning
+[2016-12-24 10:46:12][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:46:12][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:46:12][4728][INFO]
+[2016-12-24 10:46:12][4728][INFO]***********************************
+[2016-12-24 10:46:12][4728][INFO]***** interface request start *****
+[2016-12-24 10:46:12][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547572</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:46:12][4728][INFO]get:array (
+)
+[2016-12-24 10:46:12][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:46:12][4728][INFO]excute time: 1482547572449ms SQL[SET NAMES latin1]
+[2016-12-24 10:46:12][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:46:12][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547572450(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:46:12][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'ccccc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:46:12][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][64][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:46:12][4728][INFO]response:
+[2016-12-24 10:46:12][4728][INFO]***** interface request end *****
+[2016-12-24 10:46:12][4728][INFO]*********************************
+[2016-12-24 10:46:12][4728][INFO]
+[2016-12-24 10:46:12][4728][INFO]cost time:1482547572.4521 warning
+[2016-12-24 10:48:18][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:48:18][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:48:18][4728][INFO]
+[2016-12-24 10:48:18][4728][INFO]***********************************
+[2016-12-24 10:48:18][4728][INFO]***** interface request start *****
+[2016-12-24 10:48:18][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547699</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:48:18][4728][INFO]get:array (
+)
+[2016-12-24 10:48:18][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:48:18][4728][INFO]excute time: 1482547698974ms SQL[SET NAMES latin1]
+[2016-12-24 10:48:18][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:48:18][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547698975(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:48:18][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'ccccc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:48:18][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][63][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:48:18][4728][INFO]response:
+[2016-12-24 10:48:18][4728][INFO]***** interface request end *****
+[2016-12-24 10:48:18][4728][INFO]*********************************
+[2016-12-24 10:48:18][4728][INFO]
+[2016-12-24 10:48:18][4728][INFO]cost time:1482547698.9773 warning
+[2016-12-24 10:50:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 10:50:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 10:50:35][4728][INFO]
+[2016-12-24 10:50:35][4728][INFO]***********************************
+[2016-12-24 10:50:35][4728][INFO]***** interface request start *****
+[2016-12-24 10:50:35][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482547835</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 10:50:35][4728][INFO]get:array (
+)
+[2016-12-24 10:50:35][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 10:50:35][4728][INFO]excute time: 1482547835434ms SQL[SET NAMES latin1]
+[2016-12-24 10:50:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 10:50:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482547835435(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 10:50:35][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'ccccc' WHERE 1  AND  `userId` = `ojpXaaaaa` ]
+[2016-12-24 10:50:35][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][63][ERROR][1100]query db errorupdate failUnknown column 'ojpXaaaaa' in 'where clause'
+[2016-12-24 10:50:35][4728][INFO]response:
+[2016-12-24 10:50:35][4728][INFO]***** interface request end *****
+[2016-12-24 10:50:35][4728][INFO]*********************************
+[2016-12-24 10:50:35][4728][INFO]
+[2016-12-24 10:50:35][4728][INFO]cost time:1482547835.4371 warning
+[2016-12-24 11:01:38][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:01:38][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:01:38][4728][INFO]
+[2016-12-24 11:01:38][4728][INFO]***********************************
+[2016-12-24 11:01:38][4728][INFO]***** interface request start *****
+[2016-12-24 11:01:38][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548498</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:01:38][4728][INFO]get:array (
+)
+[2016-12-24 11:01:38][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:01:38][4728][INFO]excute time: 1482548498722ms SQL[SET NAMES latin1]
+[2016-12-24 11:01:38][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:01:38][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548498723(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:38][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaaccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:38][4728][INFO]excute time: 1482548498768ms SQL[UPDATE `userinput` SET`input` = 'aaaccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:38][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548498</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaaccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:01:38][4728][INFO]***** interface request end *****
+[2016-12-24 11:01:38][4728][INFO]*********************************
+[2016-12-24 11:01:38][4728][INFO]
+[2016-12-24 11:01:38][4728][INFO]cost time:1482548498.77 warning
+[2016-12-24 11:01:53][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:01:53][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:01:53][4728][INFO]
+[2016-12-24 11:01:53][4728][INFO]***********************************
+[2016-12-24 11:01:53][4728][INFO]***** interface request start *****
+[2016-12-24 11:01:53][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548513</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:01:53][4728][INFO]get:array (
+)
+[2016-12-24 11:01:53][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:01:53][4728][INFO]excute time: 1482548513102ms SQL[SET NAMES latin1]
+[2016-12-24 11:01:53][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:01:53][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548513103(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:53][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:53][4728][INFO]excute time: 1482548513164ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:53][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548513</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:01:53][4728][INFO]***** interface request end *****
+[2016-12-24 11:01:53][4728][INFO]*********************************
+[2016-12-24 11:01:53][4728][INFO]
+[2016-12-24 11:01:53][4728][INFO]cost time:1482548513.1649 warning
+[2016-12-24 11:01:57][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:01:57][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:01:57][4728][INFO]
+[2016-12-24 11:01:57][4728][INFO]***********************************
+[2016-12-24 11:01:57][4728][INFO]***** interface request start *****
+[2016-12-24 11:01:57][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548518</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:01:57][4728][INFO]get:array (
+)
+[2016-12-24 11:01:57][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:01:57][4728][INFO]excute time: 1482548517977ms SQL[SET NAMES latin1]
+[2016-12-24 11:01:57][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:01:57][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548517978(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:57][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:58][4728][INFO]excute time: 1482548518026ms SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:58][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548517</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaaccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:01:58][4728][INFO]***** interface request end *****
+[2016-12-24 11:01:58][4728][INFO]*********************************
+[2016-12-24 11:01:58][4728][INFO]
+[2016-12-24 11:01:58][4728][INFO]cost time:1482548518.0271 warning
+[2016-12-24 11:01:59][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:01:59][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:01:59][4728][INFO]
+[2016-12-24 11:01:59][4728][INFO]***********************************
+[2016-12-24 11:01:59][4728][INFO]***** interface request start *****
+[2016-12-24 11:01:59][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548519</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:01:59][4728][INFO]get:array (
+)
+[2016-12-24 11:01:59][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:01:59][4728][INFO]excute time: 1482548519462ms SQL[SET NAMES latin1]
+[2016-12-24 11:01:59][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:01:59][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548519463(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:59][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:59][4728][INFO]excute time: 1482548519518ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:01:59][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548519</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:01:59][4728][INFO]***** interface request end *****
+[2016-12-24 11:01:59][4728][INFO]*********************************
+[2016-12-24 11:01:59][4728][INFO]
+[2016-12-24 11:01:59][4728][INFO]cost time:1482548519.5202 warning
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:00][4728][INFO]
+[2016-12-24 11:02:00][4728][INFO]***********************************
+[2016-12-24 11:02:00][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:00][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548520</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:00][4728][INFO]get:array (
+)
+[2016-12-24 11:02:00][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:00][4728][INFO]excute time: 1482548520097ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548520098(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:00][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:00][4728][INFO]excute time: 1482548520126ms SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:00][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548520</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaaccccccccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:00][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:00][4728][INFO]*********************************
+[2016-12-24 11:02:00][4728][INFO]
+[2016-12-24 11:02:00][4728][INFO]cost time:1482548520.1263 warning
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:00][4728][INFO]
+[2016-12-24 11:02:00][4728][INFO]***********************************
+[2016-12-24 11:02:00][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:00][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548521</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:00][4728][INFO]get:array (
+)
+[2016-12-24 11:02:00][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:00][4728][INFO]excute time: 1482548520772ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:00][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548520773(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:00][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:00][4728][INFO]excute time: 1482548520814ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:00][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548520</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:00][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:00][4728][INFO]*********************************
+[2016-12-24 11:02:00][4728][INFO]
+[2016-12-24 11:02:00][4728][INFO]cost time:1482548520.8153 warning
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:01][4728][INFO]
+[2016-12-24 11:02:01][4728][INFO]***********************************
+[2016-12-24 11:02:01][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:01][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548521</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:01][4728][INFO]get:array (
+)
+[2016-12-24 11:02:01][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:01][4728][INFO]excute time: 1482548521355ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548521356(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:01][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:01][4728][INFO]excute time: 1482548521392ms SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:01][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548521</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaaccccccccccccccccccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:01][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:01][4728][INFO]*********************************
+[2016-12-24 11:02:01][4728][INFO]
+[2016-12-24 11:02:01][4728][INFO]cost time:1482548521.3933 warning
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:01][4728][INFO]
+[2016-12-24 11:02:01][4728][INFO]***********************************
+[2016-12-24 11:02:01][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:01][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548522</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:01][4728][INFO]get:array (
+)
+[2016-12-24 11:02:01][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:01][4728][INFO]excute time: 1482548521995ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:01][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548521996(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:01][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:02][4728][INFO]excute time: 1482548522017ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:02][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548521</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:02][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:02][4728][INFO]*********************************
+[2016-12-24 11:02:02][4728][INFO]
+[2016-12-24 11:02:02][4728][INFO]cost time:1482548522.0184 warning
+[2016-12-24 11:02:02][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:02][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:02][4728][INFO]
+[2016-12-24 11:02:02][4728][INFO]***********************************
+[2016-12-24 11:02:02][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:02][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548523</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:02][4728][INFO]get:array (
+)
+[2016-12-24 11:02:02][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:02][4728][INFO]excute time: 1482548522649ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:02][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:02][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548522650(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:02][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:02][4728][INFO]excute time: 1482548522692ms SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:02][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548522</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaaccccccccccccccccccccccccccccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:02][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:02][4728][INFO]*********************************
+[2016-12-24 11:02:02][4728][INFO]
+[2016-12-24 11:02:02][4728][INFO]cost time:1482548522.6944 warning
+[2016-12-24 11:02:03][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:03][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:03][4728][INFO]
+[2016-12-24 11:02:03][4728][INFO]***********************************
+[2016-12-24 11:02:03][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:03][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548523</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:03][4728][INFO]get:array (
+)
+[2016-12-24 11:02:03][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:03][4728][INFO]excute time: 1482548523346ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:03][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:03][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548523348(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:03][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:03][4728][INFO]excute time: 1482548523376ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:03][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548523</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:03][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:03][4728][INFO]*********************************
+[2016-12-24 11:02:03][4728][INFO]
+[2016-12-24 11:02:03][4728][INFO]cost time:1482548523.3775 warning
+[2016-12-24 11:02:04][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:04][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:04][4728][INFO]
+[2016-12-24 11:02:04][4728][INFO]***********************************
+[2016-12-24 11:02:04][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:04][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548524</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[ccccc]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:04][4728][INFO]get:array (
+)
+[2016-12-24 11:02:04][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:04][4728][INFO]excute time: 1482548524175ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:04][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:04][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548524176(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:04][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:04][4728][INFO]excute time: 1482548524201ms SQL[UPDATE `userinput` SET`input` = 'aaaccccccccccccccccccccccccccccccccccccccccccccccccccccccc' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:04][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548524</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaaccccccccccccccccccccccccccccccccccccccccccccccccccccccc]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:04][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:04][4728][INFO]*********************************
+[2016-12-24 11:02:04][4728][INFO]
+[2016-12-24 11:02:04][4728][INFO]cost time:1482548524.2015 warning
+[2016-12-24 11:02:07][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:07][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:07][4728][INFO]
+[2016-12-24 11:02:07][4728][INFO]***********************************
+[2016-12-24 11:02:07][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:07][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548527</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[dddd]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:07][4728][INFO]get:array (
+)
+[2016-12-24 11:02:07][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:07][4728][INFO]excute time: 1482548527018ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:07][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:07][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548527019(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:07][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:07][4728][INFO]excute time: 1482548527043ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:07][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548527</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddd]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:07][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:07][4728][INFO]*********************************
+[2016-12-24 11:02:07][4728][INFO]
+[2016-12-24 11:02:07][4728][INFO]cost time:1482548527.0437 warning
+[2016-12-24 11:02:57][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:02:57][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:02:57][4728][INFO]
+[2016-12-24 11:02:57][4728][INFO]***********************************
+[2016-12-24 11:02:57][4728][INFO]***** interface request start *****
+[2016-12-24 11:02:57][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548577</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[dddd]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:02:57][4728][INFO]get:array (
+)
+[2016-12-24 11:02:57][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:02:57][4728][INFO]excute time: 1482548577199ms SQL[SET NAMES latin1]
+[2016-12-24 11:02:57][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:02:57][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548577200(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:57][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:57][4728][INFO]excute time: 1482548577222ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:02:57][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548577</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddd]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:02:57][4728][INFO]***** interface request end *****
+[2016-12-24 11:02:57][4728][INFO]*********************************
+[2016-12-24 11:02:57][4728][INFO]
+[2016-12-24 11:02:57][4728][INFO]cost time:1482548577.2225 warning
+[2016-12-24 11:03:31][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:03:31][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:03:31][4728][INFO]
+[2016-12-24 11:03:31][4728][INFO]***********************************
+[2016-12-24 11:03:31][4728][INFO]***** interface request start *****
+[2016-12-24 11:03:31][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548611</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[dddd]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:03:31][4728][INFO]get:array (
+)
+[2016-12-24 11:03:53][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:03:53][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:03:53][4728][INFO]
+[2016-12-24 11:03:53][4728][INFO]***********************************
+[2016-12-24 11:03:53][4728][INFO]***** interface request start *****
+[2016-12-24 11:03:53][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548634</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[dddd]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:03:53][4728][INFO]get:array (
+)
+[2016-12-24 11:03:53][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:03:53][4728][INFO]excute time: 1482548633958ms SQL[SET NAMES latin1]
+[2016-12-24 11:03:53][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:03:53][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548633959(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:03:53][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:03:53][4728][INFO]excute time: 1482548633988ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:03:53][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548633</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddd]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:03:53][4728][INFO]***** interface request end *****
+[2016-12-24 11:03:53][4728][INFO]*********************************
+[2016-12-24 11:03:53][4728][INFO]
+[2016-12-24 11:03:53][4728][INFO]cost time:1482548633.9898 warning
+[2016-12-24 11:04:00][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:04:00][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:04:00][4728][INFO]
+[2016-12-24 11:04:00][4728][INFO]***********************************
+[2016-12-24 11:04:00][4728][INFO]***** interface request start *****
+[2016-12-24 11:04:00][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548641</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[dddd]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:04:00][4728][INFO]get:array (
+)
+[2016-12-24 11:04:00][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:04:00][4728][INFO]excute time: 1482548640901ms SQL[SET NAMES latin1]
+[2016-12-24 11:04:00][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:04:00][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548640902(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:00][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:00][4728][INFO]excute time: 1482548640929ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:00][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548640</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddd]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:04:00][4728][INFO]***** interface request end *****
+[2016-12-24 11:04:00][4728][INFO]*********************************
+[2016-12-24 11:04:00][4728][INFO]
+[2016-12-24 11:04:00][4728][INFO]cost time:1482548640.9312 warning
+[2016-12-24 11:04:29][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:04:29][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:04:29][4728][INFO]
+[2016-12-24 11:04:29][4728][INFO]***********************************
+[2016-12-24 11:04:29][4728][INFO]***** interface request start *****
+[2016-12-24 11:04:29][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548669</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[dddd]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:04:29][4728][INFO]get:array (
+)
+[2016-12-24 11:04:29][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:04:29][4728][INFO]excute time: 1482548669216ms SQL[SET NAMES latin1]
+[2016-12-24 11:04:29][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:04:29][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548669217(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:29][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:29][4728][INFO]excute time: 1482548669245ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddd' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:29][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548669</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddd]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:04:29][4728][INFO]***** interface request end *****
+[2016-12-24 11:04:29][4728][INFO]*********************************
+[2016-12-24 11:04:29][4728][INFO]
+[2016-12-24 11:04:29][4728][INFO]cost time:1482548669.2468 warning
+[2016-12-24 11:04:40][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:04:40][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:04:40][4728][INFO]
+[2016-12-24 11:04:40][4728][INFO]***********************************
+[2016-12-24 11:04:40][4728][INFO]***** interface request start *****
+[2016-12-24 11:04:40][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548680</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[mytest]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:04:40][4728][INFO]get:array (
+)
+[2016-12-24 11:04:40][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:04:40][4728][INFO]excute time: 1482548680363ms SQL[SET NAMES latin1]
+[2016-12-24 11:04:40][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:04:40][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548680364(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:40][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:40][4728][INFO]excute time: 1482548680394ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:04:40][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548680</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytest]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:04:40][4728][INFO]***** interface request end *****
+[2016-12-24 11:04:40][4728][INFO]*********************************
+[2016-12-24 11:04:40][4728][INFO]
+[2016-12-24 11:04:40][4728][INFO]cost time:1482548680.3954 warning
+[2016-12-24 11:08:15][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:08:15][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:08:15][4728][INFO]
+[2016-12-24 11:08:15][4728][INFO]***********************************
+[2016-12-24 11:08:15][4728][INFO]***** interface request start *****
+[2016-12-24 11:08:15][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548895</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[mytest]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:08:15][4728][INFO]get:array (
+)
+[2016-12-24 11:08:15][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:08:15][4728][INFO]excute time: 1482548895849ms SQL[SET NAMES latin1]
+[2016-12-24 11:08:15][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:08:15][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548895850(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:15][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytestmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:15][4728][INFO]excute time: 1482548895887ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytestmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:15][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548895</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[mytest]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:08:15][4728][INFO]***** interface request end *****
+[2016-12-24 11:08:15][4728][INFO]*********************************
+[2016-12-24 11:08:15][4728][INFO]
+[2016-12-24 11:08:15][4728][INFO]cost time:1482548895.8878 warning
+[2016-12-24 11:08:16][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:08:16][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:08:16][4728][INFO]
+[2016-12-24 11:08:16][4728][INFO]***********************************
+[2016-12-24 11:08:16][4728][INFO]***** interface request start *****
+[2016-12-24 11:08:16][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548897</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[mytest]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:08:16][4728][INFO]get:array (
+)
+[2016-12-24 11:08:16][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:08:16][4728][INFO]excute time: 1482548896953ms SQL[SET NAMES latin1]
+[2016-12-24 11:08:16][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:08:16][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548896954(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:16][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytestmytestmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:16][4728][INFO]excute time: 1482548896995ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytestmytestmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:16][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548896</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[mytest]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:08:16][4728][INFO]***** interface request end *****
+[2016-12-24 11:08:16][4728][INFO]*********************************
+[2016-12-24 11:08:16][4728][INFO]
+[2016-12-24 11:08:16][4728][INFO]cost time:1482548896.9958 warning
+[2016-12-24 11:08:20][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:08:20][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:08:20][4728][INFO]
+[2016-12-24 11:08:20][4728][INFO]***********************************
+[2016-12-24 11:08:20][4728][INFO]***** interface request start *****
+[2016-12-24 11:08:20][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548900</CreateTime>    <MsgType><![CDATA[image]]></MsgType>    <PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummHn90t1mnaibYiaR8ljyicF3MW7XX3BLp1qZgUb7CtZ0DxqYFI4uAQH1FWs3hUicpibjF0pOqLEQyDMlg/0]]></PicUrl>    <MediaId><![CDATA[DBVFRIj29LB2hxuYpc0R6VLyxwgyCHZPbRj_IIs6YaGhutyXUKtFSDcSCPeoqUYr]]></MediaId>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:08:20][4728][INFO]get:array (
+)
+[2016-12-24 11:08:20][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][26][DEBUG][0]msgType:imageevent:
+[2016-12-24 11:08:20][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548900</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[not text message]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:08:20][4728][INFO]***** interface request end *****
+[2016-12-24 11:08:20][4728][INFO]*********************************
+[2016-12-24 11:08:20][4728][INFO]
+[2016-12-24 11:08:20][4728][INFO]cost time:1482548900.27 warning
+[2016-12-24 11:08:29][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:08:29][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:08:29][4728][INFO]
+[2016-12-24 11:08:29][4728][INFO]***********************************
+[2016-12-24 11:08:29][4728][INFO]***** interface request start *****
+[2016-12-24 11:08:29][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548909</CreateTime>    <MsgType><![CDATA[image]]></MsgType>    <PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummHn90t1mnaibYiaR8ljyicF3MW7XX3BLp1qZgUb7CtZ0DxqYFI4uAQH1FWs3hUicpibjF0pOqLEQyDMlg/0]]></PicUrl>    <MediaId><![CDATA[DBVFRIj29LB2hxuYpc0R6VLyxwgyCHZPbRj_IIs6YaGhutyXUKtFSDcSCPeoqUYr]]></MediaId>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:08:29][4728][INFO]get:array (
+)
+[2016-12-24 11:08:29][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][26][DEBUG][0]msgType:imageevent:
+[2016-12-24 11:08:29][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548909</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[not text message]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:08:29][4728][INFO]***** interface request end *****
+[2016-12-24 11:08:29][4728][INFO]*********************************
+[2016-12-24 11:08:29][4728][INFO]
+[2016-12-24 11:08:29][4728][INFO]cost time:1482548909.5705 warning
+[2016-12-24 11:08:33][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:08:33][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:08:33][4728][INFO]
+[2016-12-24 11:08:33][4728][INFO]***********************************
+[2016-12-24 11:08:33][4728][INFO]***** interface request start *****
+[2016-12-24 11:08:33][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548913</CreateTime>    <MsgType><![CDATA[voice]]></MsgType>    <MediaId><![CDATA[DBVFRIj29LB2hxuYpc0R6VLyxwgyCHZPbRj_IIs6YaGhutyXUKtFSDcSCPeoqUYr]]></MediaId>    <Format><![CDATA[amr]]></Format>    <Recognition><![CDATA[明天深圳天气怎么样？]]></Recognition>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:08:33][4728][INFO]get:array (
+)
+[2016-12-24 11:08:33][4728][C:\xampp\htdocs\weixin\echoserver\class\WeChatCallBackEchoServer.php][process][26][DEBUG][0]msgType:voiceevent:
+[2016-12-24 11:08:33][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548913</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[not text message]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:08:33][4728][INFO]***** interface request end *****
+[2016-12-24 11:08:33][4728][INFO]*********************************
+[2016-12-24 11:08:33][4728][INFO]
+[2016-12-24 11:08:33][4728][INFO]cost time:1482548913.3668 warning
+[2016-12-24 11:08:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][8][ERROR][EC_OTHTER]
+[2016-12-24 11:08:35][4728][C:\xampp\htdocs\weixin\echoserver\interface.php][checkSignature][14][ERROR][EC_OTHTER]d8579dd9b01d8397c5169b43703c1bccff4ab9bb
+[2016-12-24 11:08:35][4728][INFO]
+[2016-12-24 11:08:35][4728][INFO]***********************************
+[2016-12-24 11:08:35][4728][INFO]***** interface request start *****
+[2016-12-24 11:08:35][4728][INFO]request:<xml>    <ToUserName><![CDATA[gh_oaco6ff491914c]]></ToUserName>    <FromUserName><![CDATA[ojpXaaaaa]]></FromUserName>    <CreateTime>1482548916</CreateTime>    <MsgType><![CDATA[text]]></MsgType>    <Content><![CDATA[mytest]]></Content>    <MsgId>1234567890abcdef</MsgId></xml>
+[2016-12-24 11:08:35][4728][INFO]get:array (
+)
+[2016-12-24 11:08:35][4728][INFO]SQL[SET NAMES latin1]
+[2016-12-24 11:08:35][4728][INFO]excute time: 1482548915810ms SQL[SET NAMES latin1]
+[2016-12-24 11:08:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][69][DEBUG][0]SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa'
+[2016-12-24 11:08:35][4728][C:\xampp\htdocs\weixin\echoserver\common\MysqliDb.php][query][88][DEBUG][0]excute time: 1482548915811(ms)SQL[SELECT * FROM userinput WHERE 1 AND `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:35][4728][INFO]SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytestmytestmytestmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:35][4728][INFO]excute time: 1482548915861ms SQL[UPDATE `userinput` SET`input` = 'aaacccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddddddddddmytestmytestmytestmytest' WHERE 1  AND  `userId` = 'ojpXaaaaa']
+[2016-12-24 11:08:35][4728][INFO]response:<xml>
+  <ToUserName><![CDATA[]]></ToUserName>
+  <FromUserName><![CDATA[gh_oaco6ff491914c]]></FromUserName>
+  <CreateTime>1482548915</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[mytest]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2016-12-24 11:08:35][4728][INFO]***** interface request end *****
+[2016-12-24 11:08:35][4728][INFO]*********************************
+[2016-12-24 11:08:35][4728][INFO]
+[2016-12-24 11:08:35][4728][INFO]cost time:1482548915.8619 warning

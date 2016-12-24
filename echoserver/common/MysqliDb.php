@@ -80,7 +80,7 @@ class MysqliDb{
 			}
 		}
 		$startTime=getMillisecond();
-		echo $sql;
+	//	echo $sql."    ****/n";
 		$qrs=mysqli_query($this->_conn,$sql,$quick ? MYSQLI_USE_RESULT : MYSQLI_STORE_RESULT);
 		if(!$qrs){
 			throw new DB_Exception('Query fail:'.mysqli_error($this->conn));

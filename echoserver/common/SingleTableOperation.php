@@ -3,7 +3,7 @@ include_once dirname(__FILE__).'/DbFactory.php';
 /**
 	@desc:封装了对表单的增，删，改，查，取列等操作
 */
-class STO{
+class SingleTableOperation{
 	private $_tableName;
 	private $_db;
 	function __construct($tableName='',$dbKey='DB'){
@@ -22,9 +22,9 @@ class STO{
 		
 		$tableName=$this->getTableName($args);
 		if($or){
-			$where=$args['_where'] ? $args['_where'] : '0';
+			$where=$args['_where'] ? $args['_where'] : '0 ';
 		}else{
-			$where=$args['_where'] ? $args['_where'] : '1';
+			$where=$args['_where'] ? $args['_where'] : '1 ';
 		}
 		$sql="SELECT $field FROM {$tableName} WHERE {$where}";
 		$args=$this->_db->escape($args);
@@ -70,7 +70,7 @@ class STO{
 		$args=$this->_db->escape($args);
 		
 		$sql .= "{$tableName} SET " . $this->genBackSql($args,', ');
-		echo $sql . '<BR>';
+
 		return $this->_db->update($sql);
 	}
 	function addObjects(array $cols,array $args){
@@ -94,14 +94,14 @@ class STO{
 		$args=$this->_db->escape($args);
 		$where=$this->_db->escape($where);
 		$tableName=$this->getTableName($args);
-		
-		$sql="UPDATE `{$tableName}` SET" . $this->genBackSql($args,', '). ' WHERE 1 '. $this->genFrontSql($where,'AND ');
-		return $this->_db->udpate($sql);
+		$sql="UPDATE `{$tableName}` SET" . $this->genBackSql($args,', '). ' WHERE 1 '. $this->genFrontSql($where,' AND ');
+	//	echo "leaf".$sql."<BR>";
+		return $this->_db->update($sql);
 	}
 	function delObject(array $where){
 		$where =$this->_db->escape($where);
 		$tableName=$this->getTableName($where);
-		$sql= "DELETE FROM `{$tableName}` WHERE 1 " . $this->genFrontSql($where, 'AND ');
+		$sql= "DELETE FROM `{$tableName}` WHERE 1 " . $this->genFrontSql($where, ' AND ');
 		return $this->_db->update($sql);
 	}
 	// 把key=>Value 的数组转化成后置连接字符串
@@ -128,7 +128,7 @@ class STO{
 			if(is_array($value)){
 				$str .="$connect `$key` IN ('" .join("','",$value) . "')";
 			}else {
-				$str .="$connect `$key` = `$value` ";
+				$str .="$connect `$key` = '$value'";
 			}
 		}
 		return $str;
