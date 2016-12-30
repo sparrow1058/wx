@@ -43,13 +43,14 @@ class SSQLottery{
 			$this->_oTable=new SingleTableOperation("ssqdata","SSQ");
 			$ret=$this->_oTable->getObject(array('_sortExpress'=>' id desc','_limit'=>1));
 			$this->_newest=$ret[0]['Num'];
+			set_time_limit(0);
 		}catch(Exception $e){
 			interface_log(ERROR,EC_DB_OP_EXCEPTION,$e->getMessage());
 			return $this->makeFF_HINT(FF_HINT_INNER_ERROR);
 		}
 		return true;
 	}
-	public function getLastId($n){
+	public function getLastNum($n){
 		
 		try{
 			$ret=$this->_oTable->getObject(array('_sortExpress'=>' id desc','_limit'=>$n));
@@ -91,43 +92,57 @@ class SSQLottery{
 	//		echo $lost[$j];
 		try{
 		//	$ret=$this->_oTable->getObject(array('R1'=>1'));
-		$ret=$this->_oTable->getObject(array('_sortExpress'=>' id '));
-		{
-			$this->_oTable->setTableName("lostRTable");
-			
-			//foreach ($ret[i] as list($id,$num,$r1,$r2,$r3, $r4,$r5, $r6))
-				//echo $id.$num.$r1.$r2.$r3.$r4.$r5.$r6;
-			for ($i=0;$i<3;$i++)
-			{
-			//	echo $ret[$i]['R1']."  ".$ret[$i]['R2']."  ".$ret[$i]['R3']."  ".$ret[$i]['R4']."  ".$ret[$i]['R5']."  ".$ret[$i]['R6']." <BR>";
-				for($j=1;$j<34;$j++){
-					if($j==$ret[$i]['R1']||$j==$ret[$i]['R2']||$j==$ret[$i]['R3']||$j==$ret[$i]['R4']||$j==$ret[$i]['R5']||$j==$ret[$i]['R6'])
-					{
-						$lost[$j]=0;
-					}
-					else
-						$lost[$j]++;
-				}
+		$this->_oTable->setTableName("lostRTable");
+		$lostNums=$this->getLastNum(1);
 
-				echo "<BR>";
-				for($j=1;$j<34;$j++)
-				{	
-					echo $lost[$j]."  ";
-					
-				}
-				echo "<BR>";
-				$lostR=array("Num"=>$ret[$i]['Num'],"RL1"=>$lost[1],"RL2"=>$lost[2],"RL3"=>$lost[3],"RL4"=>$lost[4],"RL5"=>$lost[5],
-													"RL6"=>$lost[6],"RL7"=>$lost[7],"RL8"=>$lost[8],"RL9"=>$lost[9],"RL10"=>$lost[10],
-													"RL11"=>$lost[11],"RL12"=>$lost[12],"RL13"=>$lost[13],"RL14"=>$lost[14],"RL15"=>$lost[15],
-													"RL16"=>$lost[16],"RL17"=>$lost[17],"RL18"=>$lost[18],"RL19"=>$lost[19],"RL20"=>$lost[20],
-													"RL21"=>$lost[21],"RL22"=>$lost[22],"RL23"=>$lost[23],"RL24"=>$lost[24],"RL25"=>$lost[25],
-													"RL26"=>$lost[26],"RL27"=>$lost[27],"RL28"=>$lost[28],"RL29"=>$lost[29],"RL30"=>$lost[30],
-													"RL31"=>$lost[31],"RL32"=>$lost[32],"RL33"=>$lost[33]
-							);
-				$this->_oTable->addObject($lostR);
-				//var_dump($lost);
-			}
+		$this->_oTable->setTableName("ssqdata");
+		$dataNums=$this->getLastNum(1);
+		if(!($lostNums[0]['Num']<$dataNums[0]['Num'])){
+			echo "no need update <BR>";
+			return 0;
+		}else{
+			$gap=$dataNums[0]['id']-$lostNums[0]['id'];
+			echo "***********gap **********".$gap;
 		}
+		//$ret=$this->_oTable->getObject(array('_sortExpress'=>' id '));
+		
+		
+		$ret=$this->_oTable->getObject(array('id'=>$lostNums[0]['id'],'_sortExpress'=>' id desc','_logic'=>">"));
+		
+		$this->_oTable->setTableName("lostRTable");
+		//foreach ($ret[i] as list($id,$num,$r1,$r2,$r3, $r4,$r5, $r6))
+			//echo $id.$num.$r1.$r2.$r3.$r4.$r5.$r6;
+		for ($i=0;$i<$gap;$i++)
+		{
+		//	echo $ret[$i]['R1']."  ".$ret[$i]['R2']."  ".$ret[$i]['R3']."  ".$ret[$i]['R4']."  ".$ret[$i]['R5']."  ".$ret[$i]['R6']." <BR>";
+			for($j=1;$j<34;$j++){
+				if($j==$ret[$i]['R1']||$j==$ret[$i]['R2']||$j==$ret[$i]['R3']||$j==$ret[$i]['R4']||$j==$ret[$i]['R5']||$j==$ret[$i]['R6'])
+				{
+					$lost[$j]=0;
+				}
+				else
+					$lost[$j]++;
+			}
+
+			echo "<BR>";
+			for($j=1;$j<34;$j++)
+			{	
+				echo $lost[$j]."  ";
+				
+			}
+			echo "<BR>";
+			$lostR=array("Num"=>$ret[$i]['Num'],"RL1"=>$lost[1],"RL2"=>$lost[2],"RL3"=>$lost[3],"RL4"=>$lost[4],"RL5"=>$lost[5],
+												"RL6"=>$lost[6],"RL7"=>$lost[7],"RL8"=>$lost[8],"RL9"=>$lost[9],"RL10"=>$lost[10],
+												"RL11"=>$lost[11],"RL12"=>$lost[12],"RL13"=>$lost[13],"RL14"=>$lost[14],"RL15"=>$lost[15],
+												"RL16"=>$lost[16],"RL17"=>$lost[17],"RL18"=>$lost[18],"RL19"=>$lost[19],"RL20"=>$lost[20],
+												"RL21"=>$lost[21],"RL22"=>$lost[22],"RL23"=>$lost[23],"RL24"=>$lost[24],"RL25"=>$lost[25],
+												"RL26"=>$lost[26],"RL27"=>$lost[27],"RL28"=>$lost[28],"RL29"=>$lost[29],"RL30"=>$lost[30],
+												"RL31"=>$lost[31],"RL32"=>$lost[32],"RL33"=>$lost[33]
+						);
+			$this->_oTable->addObject($lostR);
+			//var_dump($lost);
+		}
+		
 		
 			
 		//$ret=$this->_oTable->executeSql("SELECT * FROM ssqdata where R1={$num} OR R2={$num} OR  R3={$num} OR R4={$num} OR R5={$num} OR R6={$num} ORDER BY id");

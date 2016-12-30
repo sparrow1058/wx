@@ -94,7 +94,6 @@ class SingleTableOperation{
 		$args=$this->_db->escape($args);
 		
 		$sql .= "{$tableName} SET " . $this->genBackSql($args,', ');
-				echo "leaf add ***  ".$sql;
 		return $this->_db->update($sql);
 	}
 	function addObjects(array $cols,array $args){
