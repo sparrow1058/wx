@@ -8,7 +8,8 @@ function checkSignature()
 	interface_log(ERROR,EC_OTHTER,$signature,$timestamp,$nonce);		
 	$token=WEIXIN_TOKEN;
 	$tmpArr=array($token,$timestamp,$nonce);
-	sort($tmpArr);
+	//sort($tmpArr);
+	sort($tmpArr, SORT_STRING); 
 	$tmpStr=implode($tmpArr);
 	$tmpStr=sha1($tmpStr);
 	interface_log(ERROR,EC_OTHTER,$tmpStr);
@@ -33,13 +34,16 @@ else{
 */   // the error 
 
 function getWeChatObj($toUserName){
+	//echo $toUserName;
+
 	if($toUserName==USERNAME_FINDFACE){
 		require_once dirname(__FILE__).'/class/WeChatCallBackFindFace.php';
 		return new WeChatCallBackFindFace();
 	}
-	if($toUserName==USERNAME_MR){
+	if($toUserName==USERNAME_MR){ 
 		require_once dirname(__FILE__).'/class/WeChatCallBackMeiri10futu.php';
 		return new WeChatCallBackMeiri10futu();
+		
 	}
 	if($toUserName==USERNAME_ES){
 		require_once dirname(__FILE__).'/class/WeChatCallBackEchoServer.php';

@@ -58,6 +58,22 @@ class MysqliDb{
 		}
 	}
 	/*
+	public function queryString($sql){
+	//	$sql="SELECT name,url FROM websites ORDER BY alexa";
+		//$result=mysqli_query($con,$sql);
+		//$row=mysqli_fetch_array($result,MYSQLI_NUM);
+		interface_log(DEBUG,0,$sql);
+		if(!$this->_conn||!$this->ping($this->_conn)){
+		if($this->_autoCommitTime){
+			throw new DB_Exception("auto commit time is not zero when reconnect to db");
+		}else{
+			$this->connect();
+		}
+	}	
+
+	}
+	*/
+	/*
 	// an sql query
 	//Just for SELECT SQL command
 	@param string $sql  SQL Query cmd
@@ -66,7 +82,6 @@ class MysqliDb{
 	@return resource   return the query handle
 	*/
 	public function query($sql,$limit=null,$quick=false){
-		interface_log(DEBUG,0,$sql);
 		if($limit!=null){
 			if(!preg_match('/^\s*SHOW/i',$sql)&&!preg_match('/FOR UPDATE\s*$/i',$sql)&&!preg_match('/LOCK IN SHARE MODE\s*$/i',$sql)){
 					$sql=$sql."LIMIT".$limit;
@@ -125,7 +140,7 @@ class MysqliDb{
 	//@param string $sql   ----$sql  sql cmd
 	//@return boolean 		
 	public function update($sql){
-		interface_log(INFO,EC_OK,"SQL[$sql]");
+	//	interface_log(INFO,EC_OK,"SQL[$sql]");
 		if(!$this->_conn||!$this->ping($this->_conn)){
 			if($this->_autoCommitTime){
 				throw new DB_Exception('auto commit time is not zero when reconnect to db');
@@ -147,6 +162,7 @@ class MysqliDb{
 	//@param string $sql 
 	//@return mixed  query result 
 	public function getOne($sql){
+		echo $sql;
 		if(!$rs=$this->query($sql,1,true)){
 			return false;
 		}

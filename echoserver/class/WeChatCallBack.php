@@ -13,8 +13,10 @@ class WeChatCallBack{
 		return $this->_toUserName;
 	}
 	public function makeHint($hint){
-		$resultStr=sprintf(HINT_TPL,$this->_fromUsername,
+	
+		$resultStr=sprintf(HINT_TPL,$this->_fromUserName,
 			$this->_toUserName,$this->_time,'text',$hint);
+			interface_log(DEBUG,0,"leaf make ***".$resultStr."    ".$this->_fromUserName);
 			return $resultStr;
 	}
 	public function init($postObj){

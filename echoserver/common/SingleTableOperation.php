@@ -13,6 +13,10 @@ class SingleTableOperation{
 	function setTableName($tableName){
 		$this->_tableName=$tableName;
 	}
+	function getOne($sql){
+		$this->_db->getOne($sql);
+		
+	}
 	function getObject(array $args=array(),$or=0){
 		$fetch=$args['_fetch'];
 		$fetch||$fetch='getAll';
@@ -37,29 +41,49 @@ class SingleTableOperation{
 					$sql .="AND `{$key}` IN ('".implode("','",$value)."')";
 				}
 			}else {
-				if($or){
-				//	$sql .="OR `{$key}`=`{$value}`";
-					$sql.="OR `{$key}` ='{$value}' ";
-				}else {
-					$sql .= "AND `{$key}` = '{$value}'";
+				if($args['_logic']){
+					if($or){
+						$sql.="OR `{$key}` {$args['_logic']} '{$value}' ";
+					}else {
+						$sql .= "AND `{$key}` {$args['_logic']} '{$value}'";
+					}
+				}else{
+					if($or){
+						$sql.="OR `{$key}` ='{$value}' ";
+					}else {
+						$sql .= "AND `{$key}` = '{$value}'";
+					}
 				}
 			}
 		}
 		//sort 
 		if($args['_sortExpress']){
-			$sql .= "ORDER BY {$args['_sortExpress']} ";
+			$sql .= " ORDER BY {$args['_sortExpress']} ";
 			$sql .= $args['_sortDirection']. ' ';
 		}
+		if($args['_limit']){
+			$sql .="limit {$args['_limit']} ";
+		
+		}
 		$args['_lockRow'] && $sql .= "FOR UPDATE";
-		return $this->_db->$fetch($sql,$args['_limit']);
+		echo "leaf  ** ".$sql."<BR>";
+		return $this->_db->$fetch($sql,$args['_mode']);
 	}
-	function getAll(array $args=array()){
-		return $this->getObject($args);
+
+	
+	function executeSql($sql)
+	{
+		$fetch||$fetch='getAll';
+		echo "leaf querySql ** ".$sql."<BR>";
+		$ret= $this->_db->$fetch($sql);
+		return $ret;
 	}
+	
 	function getCount(array $args= array()){
 		$args['_field']='COUNT(*)';
 		return $this->getOneField($args);
 	}
+	
 	//insert one line
 	function addObject(array $args){
 		return $this->_addObject($args,'add');
@@ -70,7 +94,7 @@ class SingleTableOperation{
 		$args=$this->_db->escape($args);
 		
 		$sql .= "{$tableName} SET " . $this->genBackSql($args,', ');
-
+				echo "leaf add ***  ".$sql;
 		return $this->_db->update($sql);
 	}
 	function addObjects(array $cols,array $args){
@@ -85,6 +109,7 @@ class SingleTableOperation{
 			$sql .= "('".join("', '",$value) . "'),";
 		}
 		$sql= substr($sql,0,-1);
+
 		return $this->_db->update($sql);
 	}
 	function getInsertId(){
@@ -150,6 +175,9 @@ class SingleTableOperation{
 	function getErrorInfo(){
 		return $this->_db->getErrorInfo();
 	}
+	
+	///leaf 
+	
 }
 	
 ?>
