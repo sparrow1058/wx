@@ -78,11 +78,11 @@ primary key(fightId),
 foreign key(user1) references cUser(userId),
 foreign key(user2) references cUser(userId)
 );
-
-
+ SELECT * FROM ssqdata WHERE 1 AND `Num` > '350'
+DELETE FROM lostrtable WHERE id >350
 
 	CREATE TABLE `ssqdata` (
-	`id` int(11) NOT NULL AUTO_INCREMENT,
+	`id` int(11) NOT NULL ,
 	`Num` int(11) NOT NULL ,
 	`R1` int(11) NOT NULL ,
 	`R2` int(11) NOT NULL ,
@@ -92,11 +92,10 @@ foreign key(user2) references cUser(userId)
 	`R6` int(11) NOT NULL ,
 	`B1` int(11) NOT NULL ,
 	`addTimestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY(`id`)
 	);
 			
 CREATE TABLE lostRTable(
-	 id int(11) NOT NULL AUTO_INCREMENT,
+	 id int(11) NOT NULL ,
 	 Num int(11) NOT NULL,
 	 RL1 int(3) NOT NULL,
 	 RL2 int(3) NOT NULL,
@@ -131,7 +130,6 @@ CREATE TABLE lostRTable(
 	 RL31 int(3) NOT NULL,
 	 RL32 int(3) NOT NULL,
 	 RL33 int(3) NOT NULL,
-	PRIMARY KEY(`id`)
 );
 CREATE TABLE lostBTable(
 	 id int(11) NOT NULL AUTO_INCREMENT,
@@ -152,7 +150,7 @@ CREATE TABLE lostBTable(
 	 BL14 int(3) NOT NULL,
 	 BL15 int(3) NOT NULL,
 	 BL16 int(3) NOT NULL,
-	 DIF  int(3) NOT NULL,
+	 DIF  int(3) NOT NULL
 
 	PRIMARY KEY(`id`)
 );
