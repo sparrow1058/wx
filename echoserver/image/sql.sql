@@ -84,14 +84,15 @@ DELETE FROM lostrtable WHERE id >350
 	CREATE TABLE `ssqdata` (
 	`id` int(11) NOT NULL ,
 	`Num` int(11) NOT NULL ,
-	`R1` int(11) NOT NULL ,
-	`R2` int(11) NOT NULL ,
-	`R3` int(11) NOT NULL ,
-	`R4` int(11) NOT NULL ,
-	`R5` int(11) NOT NULL ,
-	`R6` int(11) NOT NULL ,
-	`B1` int(11) NOT NULL ,
-	`addTimestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	`R1` int(2) NOT NULL ,
+	`R2` int(2) NOT NULL ,
+	`R3` int(2) NOT NULL ,
+	`R4` int(2) NOT NULL ,
+	`R5` int(2) NOT NULL ,
+	`R6` int(2) NOT NULL ,
+	`B1` int(2) NOT NULL ,
+	`Sum` int(3) NOT NULL,
+	`OEC` char(3)NOT NULL,
 	);
 			
 CREATE TABLE lostRTable(

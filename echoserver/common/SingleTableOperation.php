@@ -66,7 +66,7 @@ class SingleTableOperation{
 		
 		}
 		$args['_lockRow'] && $sql .= "FOR UPDATE";
-		echo "leaf  ** ".$sql."<BR>";
+		//echo "leaf*****************".$sql."<BR>";
 		return $this->_db->$fetch($sql,$args['_mode']);
 	}
 

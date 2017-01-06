@@ -64,9 +64,17 @@ class SSQLottery{
 	}
 	public function updateBaseData($id,$ssqline)
 	{
+		$OEC=0;
 		$line=str_replace(" ","",$ssqline);
 		$ssqArray=array('id'=>$id,'num'=>substr($line,0,5),'R1'=>substr($line,5,2),'R2'=>substr($line,7,2),'R3'=>substr($line,9,2),'R4'=>substr($line,11,2),
 					'R5'=>substr($line,13,2),'R6'=>substr($line,15,2),'B1'=>substr($line,17,2));
+		$sum=$ssqArray['R1']+$ssqArray['R2']+$ssqArray['R3']+$ssqArray['R4']+$ssqArray['R5']+$ssqArray['R6'];
+		for($i=1;$i<7;$i++){
+			$Rnum='R'.$i;
+			$OEC=$OEC+$ssqArray[$Rnum]%2;
+		}
+		$ssqArray['Sum']=$sum;
+		$ssqArray['OEC']=$OEC;
 		try{
 			
 			$ret=$this->_oTable->addObject($ssqArray);
@@ -87,10 +95,11 @@ class SSQLottery{
 			}
 		}
 	}
-	public function updateLostRtable($num){
+	public function updateLostRtable(){
 //		if($num<$this->_newest)
 	//		return 0;
 		$lost = array();
+	//	$shtml=new ShowHtml();
 //		for($j=1;$j<34;$j++)
 	//		echo $lost[$j];
 		try{
@@ -109,7 +118,7 @@ class SSQLottery{
 			$gap=$dataNums[0]['id']-$lostNums[0]['id'];
 			$id=$lostNums[0]['id'];
 			
-			echo "****gap **id********".$gap."  ".$id."<BR>";
+		//	echo "****gap **id********".$gap."  ".$id."<BR>";
 			
 		}
 		//$ret=$this->_oTable->getObject(array('_sortExpress'=>' id '));
@@ -124,10 +133,17 @@ class SSQLottery{
 		for ($i=0;$i<$gap;$i++)
 		{
 		//	echo $ret[$i]['R1']."  ".$ret[$i]['R2']."  ".$ret[$i]['R3']."  ".$ret[$i]['R4']."  ".$ret[$i]['R5']."  ".$ret[$i]['R6']." <BR>";
+			$curLost="";
 			for($j=1;$j<34;$j++){
 				if($j==$ret[$i]['R1']||$j==$ret[$i]['R2']||$j==$ret[$i]['R3']||$j==$ret[$i]['R4']||$j==$ret[$i]['R5']||$j==$ret[$i]['R6'])
 				{
+					if($i==0){
+						$RLStr='RL'.$j;
+						$lost[$j]=$lostNums[0][$RLStr];
+					}
+					$curLost= $curLost.' '.str_pad($lost[$j],2,'0',STR_PAD_LEFT);
 					$lost[$j]=0;
+					
 				}else{
 					if($i==0){
 						$RLStr='RL'.$j;
@@ -138,14 +154,8 @@ class SSQLottery{
 					}
 				}
 			}
-
-			echo "<BR>";
-			for($j=1;$j<34;$j++)
-			{	
-				echo $lost[$j]."  ";
-				
-			}
-			echo "<BR>";
+			//$shtml->showProcessBar($i/$gap);
+			
 			$lostR=array('id'=>$id+$i+1,"Num"=>$ret[$i]['Num'],
 						"RL1"=>$lost[1],"RL2"=>$lost[2],"RL3"=>$lost[3],"RL4"=>$lost[4],"RL5"=>$lost[5],
 						"RL6"=>$lost[6],"RL7"=>$lost[7],"RL8"=>$lost[8],"RL9"=>$lost[9],"RL10"=>$lost[10],
@@ -153,7 +163,7 @@ class SSQLottery{
 						"RL16"=>$lost[16],"RL17"=>$lost[17],"RL18"=>$lost[18],"RL19"=>$lost[19],"RL20"=>$lost[20],
 						"RL21"=>$lost[21],"RL22"=>$lost[22],"RL23"=>$lost[23],"RL24"=>$lost[24],"RL25"=>$lost[25],
 						"RL26"=>$lost[26],"RL27"=>$lost[27],"RL28"=>$lost[28],"RL29"=>$lost[29],"RL30"=>$lost[30],
-						"RL31"=>$lost[31],"RL32"=>$lost[32],"RL33"=>$lost[33]
+						"RL31"=>$lost[31],"RL32"=>$lost[32],"RL33"=>$lost[33],"CURLOST"=>$curLost
 						);
 			$this->_oTable->addObject($lostR);
 			//var_dump($lost);
@@ -174,8 +184,35 @@ class SSQLottery{
 		}
 		
 	}
-	
-	
+	public function getRLost($num,$max){
+		$field='RL'.$num;
+		$result[0]=$num;
+		$this->_oTable->setTableName("lostRTable");	
+		$ret=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
+		$currentLost=$ret[0][$field];
+		
+		$ret=$this->_oTable->getObject(array($field=>0,'_limit'=>$max,'_sortExpress'=>' id desc'));
+		$maxLost=count($ret,COUNT_NORMAL);
+		//var_dump($ret);
+		for($i=1;$i<$maxLost;$i++)
+			$result[$i]=$ret[$maxLost-$i-1]['id']-$ret[$maxLost-$i]['id']-1;
+		$result[$maxLost]=$currentLost;
+		return $result;
+	}
+	public function getAllBalls($max){
+		$this->_oTable->setTableName("ssqdata");	
+		$ret=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
+		
+		$preNum=$ret[1]['Num'];
+		$this->_oTable->setTableName("lostRTable");	//get the lost 
+		$lost=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
+		for($i=0;$i<$max;$i++)
+		{
+			$ret[$i]['lost']=$lost[$i]['CURLOST'];
+		}
+		return $ret;	
+		
+	}
 	
 	
 }
