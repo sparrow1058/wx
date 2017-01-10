@@ -1,18 +1,27 @@
 <?php
-require_once dirname (__FILE__)."./../html/htmlhead.php";
+//require_once dirname (__FILE__)."./../html/htmlhead.php";
+define('TABLE_HEAD','<TABLE style="BORDER-COLLAPSE: collapse" borderColor=#31659c cellSpacing=0 cellPadding=0 align="center"   height:50px; width="100%" bgColor=#ffffff border=1>');
+define('TABLE_TAIL','</TABLE>');
+define('TBODY_HEAD','<TBODY id="test" >');
+define('TBODY_TAIL','</TBODY>');
 class ShowHtml{
-	
-	public function showWebHead()
+	public function showTableHead()
 	{
-		echo HTML_HEAD;
+		echo TABLE_HEAD;
+		echo TBODY_HEAD;
 	}
-	public function showWebTail()
+	public function showTableTail()
 	{
-		echo HTML_TAIL;
+		echo TABLE_TAIL;
+		echo TBODY_TAIL;
+	}
+	function echoStr($str)
+	{
+		echo $str;
 	}
 	function echoOneTR($style,$array,$maxtd)
 	{
-		echo '<TR>';
+		echo '<TR id='.$array[0].'>';
 		for($i=0;$i<$maxtd;$i++)
 			echo '<TD class='.$style.'>'.$array[$i].'</TD>';
 		echo '</TR>';
@@ -26,7 +35,7 @@ class ShowHtml{
 			$num++;
 			$tdstr=array_values($tdline);
 			$css='p'.($num%2);
-		echo '<TR>';
+		echo '<TR id='.$tdstr[$start].'>';
 			
 		for($i=0;$i<$length;$i++){
 			$tmpstr=str_pad($tdstr[$i+$start],2,"0",STR_PAD_LEFT);
@@ -42,12 +51,11 @@ class ShowHtml{
 	function showRLostHead($max){
 		
 	//	$this->showWebHead();
-		$RLostHead=array("数字",'&nbspL01','&nbspL02','&nbspL03','&nbspL04','&nbspL05','&nbspL06','&nbspL07','&nbspL08',' L09','L10','L11','L12','L13','L14','L15','L16','L17','L18','L19','R20');
+		echo TABLE_HEAD;
 		$this->echoOneTR(CSS3,$RLostHead,$max);
 	//	$this->showWebTail();
 	}
 	function showAllBallsHead(){
-		$allBallsHead=array("List&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp",'&nbspR01','&nbspR02','&nbspR03','&nbspR04','&nbspR05','&nbspR06','&nbspB01','&nbspSUM','&nbspOED','&nbspLOST');
 		$this->echoOneTR(CSS3,$allBallsHead,count($allBallsHead,COUNT_NORMAL));
 		
 	}

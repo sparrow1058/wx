@@ -50,7 +50,7 @@ function wxmp_log($confName,$logLevel,$errorCode,$logMessage="no error msg")
 }
 function interface_log($logLevel,$errorCode,$logMessage="no error msg")
 {
-	wxmp_log('interface',$logLevel,$errorCode,$logMessage);
+	//wxmp_log('interface',$logLevel,$errorCode,$logMessage);
 }
 function getIp()
 {

@@ -65,6 +65,7 @@ class SSQLottery{
 	public function updateBaseData($id,$ssqline)
 	{
 		$OEC=0;
+		$Rang7=array (0,0,0,0,0,0,0);
 		$line=str_replace(" ","",$ssqline);
 		$ssqArray=array('id'=>$id,'num'=>substr($line,0,5),'R1'=>substr($line,5,2),'R2'=>substr($line,7,2),'R3'=>substr($line,9,2),'R4'=>substr($line,11,2),
 					'R5'=>substr($line,13,2),'R6'=>substr($line,15,2),'B1'=>substr($line,17,2));
@@ -72,9 +73,18 @@ class SSQLottery{
 		for($i=1;$i<7;$i++){
 			$Rnum='R'.$i;
 			$OEC=$OEC+$ssqArray[$Rnum]%2;
+			$rIndex=floor(($ssqArray[$Rnum]-1)/5);
+			$Rang7[$rIndex]=$Rang7[$rIndex]+1;
 		}
+		for($i=0;$i<7;$i++)
+			$rangeStr=$rangeStr." ".$Rang7[$i];
 		$ssqArray['Sum']=$sum;
 		$ssqArray['OEC']=$OEC;
+		$ssqArray['RANGE']=$rangeStr;
+		
+		
+		
+		
 		try{
 			
 			$ret=$this->_oTable->addObject($ssqArray);
@@ -194,9 +204,12 @@ class SSQLottery{
 		$ret=$this->_oTable->getObject(array($field=>0,'_limit'=>$max,'_sortExpress'=>' id desc'));
 		$maxLost=count($ret,COUNT_NORMAL);
 		//var_dump($ret);
-		for($i=1;$i<$maxLost;$i++)
+		for($i=1;$i<$maxLost;$i++){
+			
 			$result[$i]=$ret[$maxLost-$i-1]['id']-$ret[$maxLost-$i]['id']-1;
-		$result[$maxLost]=$currentLost;
+			$result[$i]=str_pad($result[$i],2,'0',STR_PAD_LEFT);
+		}
+		$result[$maxLost]=str_pad($currentLost,2,'0',STR_PAD_LEFT);
 		return $result;
 	}
 	public function getAllBalls($max){
@@ -210,9 +223,33 @@ class SSQLottery{
 		{
 			$ret[$i]['lost']=$lost[$i]['CURLOST'];
 		}
-		return $ret;	
-		
+		return $ret;		
 	}
-	
-	
+	public function getRballs($num){
+		$this->_oTable->setTableName("ssqdata");	
+		$ret=$this->_oTable->getObject(array('num'=>$num,'_sortExpress'=>' id desc'));
+		return $ret;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

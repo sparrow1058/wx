@@ -1,0 +1,71 @@
+:root {
+  --data_h: 60px;
+  --base-line-height:   120%;
+  --text-color:         gray;
+}
+@nice-blue: #5B83AD;
+.body{
+  background: #35393d;
+ // background: #0;
+}
+#datatable{
+  width: width:100%;
+  margin: 5px auto;
+}
+
+.controls_ui{
+ // position: fixed;	
+  width: width:100%;
+  margin: 10px auto;
+}
+.button{
+  color: #cc6600;
+  text-shadow:0 1px 0 #484f58;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  border:1px solid #202124;
+  box-shadow: 0 1px 0 #616a74 inset,0 1px 5px #212528;
+  background: -webkit-linear-gradient(top,#474d54,#2f363d);
+  background: -moz-linear-gradient(top,#474d54,#2f363d);
+  background: -ms-linear-gradient(top,#474d54,#2f363d);
+  background: -o-linear-gradient(top,#474d54,#2f363d);
+  background: linear-gradient(top,#474d54,#2f363d);
+}
+.button:hover{
+  background: -webkit-linear-gradient(top,#5b6167,#30373e);
+  background: -moz-linear-gradient(top,#5b6167,#30373e);
+  background: -ms-linear-gradient(top,#5b6167,#30373e);
+  background: -o-linear-gradient(top,#5b6167,#30373e);
+  background: linear-gradient(top,#5b6167,#30373e);
+}
+.button:active{
+  box-shadow: 0 1px #484c50;
+  background: -webkit-linear-gradient(top,#232930,#3c4249);
+  background: -moz-linear-gradient(top,#232930,#3c4249);
+  background: -ms-linear-gradient(top,#232930,#3c4249);
+  background: -o-linear-gradient(top,#232930,#3c4249);
+  background: linear-gradient(top,#232930,#3c4249);
+}
+.square,
+.squarebig{
+  border-radius:5px;
+}
+.button:after{
+  display: block;
+}
+.roundbig,
+.squarebig{
+  width: 24%;
+  height: 50px;
+}
+.p0 { background-color:#CCCCFF;COLOR: #0;text-align=right; height:30px}
+.p1 { background-color:#CCFFFF;COLOR: #0 ;text-align=right; height:30px}
+.p2 { background-color:#CCCCFF;COLOR: #0;text-align=right; height:30px}
+.p3 { background-color:#CC99FF; COLOR:#0;text-align="right"; height:30px}
+.p4 {background-color:#FFCCFF; COLOR:#0;text-align="right"}
+.p5{background-color:#383C54}
+.p7 {background-color:#0099ff; COLOR:#0;text-align="right";height:30px}
+.p8 {background-color:#ccffcc; COLOR:#0;text-align="right";height:30px}
+.p9 {background-color:#ffcccc; COLOR:#0;text-align="right";height:30px}
+.p10 {background-color:#ccffcc; COLOR:#0;text-align="right";height:30px}
+.p11 {background-color:#ccccff; COLOR:#0;text-align="right";height:30px}

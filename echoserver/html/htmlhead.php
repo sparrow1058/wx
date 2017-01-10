@@ -66,17 +66,17 @@ background:url(image/bar.png) center;
 #coupon1 {
     position: fixed;
 	top: 20px;
-	left: -230px;
+	left: -240px;
 }
 #coupon2 {
     position: fixed;
 	top: 100px;
-	left: -230px;
+	left: -240px;
 }
 #coupon3 {
     position: fixed;
 	top: 180px;
-	left: -230px;
+	left: -240px;
 }
 #coupon4 {
     position: fixed;

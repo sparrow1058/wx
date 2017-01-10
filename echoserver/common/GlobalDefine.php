@@ -95,11 +95,18 @@ $GLOBALS['DB']=array(
 		'PASSWD'=>'',
 		'PORT'=>3306
 		),
-	'SSQ'=>array(
+	'SSQLocal'=>array(
 		'HOST'=>'localhost',
 		'DBNAME'=>'ssq',
 		'USER'=>'root',
 		'PASSWD'=>'',
+		'PORT'=>3306
+		),	
+	'SSQ'=>array(
+		'HOST'=>'qdm165226386.my3w.com',
+		'DBNAME'=>'qdm165226386_db',
+		'USER'=>'qdm165226386',
+		'PASSWD'=>'leaf12345',
 		'PORT'=>3306
 		),
 		

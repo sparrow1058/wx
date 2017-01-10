@@ -1,7 +1,7 @@
 SELECT * FROM `pre_moodwall` ORDER BY id desc limit 10		//反向查询 最新
 TRUNCATE TABLE ssqdata
 DELETE FROM table1 where id=1
-
+ALTER TABLE `ssqdata` ADD `RANGE` varchar(30) NOT NULL 
 
 
 
@@ -81,7 +81,7 @@ foreign key(user2) references cUser(userId)
  SELECT * FROM ssqdata WHERE 1 AND `Num` > '350'
 DELETE FROM lostrtable WHERE id >350
 
-	CREATE TABLE `ssqdata` (
+CREATE TABLE `ssqdata` (
 	`id` int(11) NOT NULL ,
 	`Num` int(11) NOT NULL ,
 	`R1` int(2) NOT NULL ,
@@ -92,7 +92,8 @@ DELETE FROM lostrtable WHERE id >350
 	`R6` int(2) NOT NULL ,
 	`B1` int(2) NOT NULL ,
 	`Sum` int(3) NOT NULL,
-	`OEC` char(3)NOT NULL,
+	`OEC` char(4)NOT NULL,
+	`RANGE` char(20) NOT NULL,
 	);
 			
 CREATE TABLE lostRTable(
@@ -131,6 +132,7 @@ CREATE TABLE lostRTable(
 	 RL31 int(3) NOT NULL,
 	 RL32 int(3) NOT NULL,
 	 RL33 int(3) NOT NULL,
+	 CURLOST char(30) NOT NULL
 );
 CREATE TABLE lostBTable(
 	 id int(11) NOT NULL AUTO_INCREMENT,
