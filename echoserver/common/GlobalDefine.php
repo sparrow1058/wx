@@ -102,7 +102,7 @@ $GLOBALS['DB']=array(
 		'PASSWD'=>'',
 		'PORT'=>3306
 		),	
-	'SSQ'=>array(
+	'SSQREMOTE'=>array(
 		'HOST'=>'qdm165226386.my3w.com',
 		'DBNAME'=>'qdm165226386_db',
 		'USER'=>'qdm165226386',

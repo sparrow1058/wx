@@ -3,10 +3,12 @@
   --base-line-height:   120%;
   --text-color:         gray;
 }
-@nice-blue: #5B83AD;
 .body{
   background: #35393d;
  // background: #0;
+}
+.span{
+ background-color:#CCCCFF;COLOR: #0;text-align=right; height:30px
 }
 #datatable{
   width: width:100%;
@@ -58,6 +60,9 @@
   width: 24%;
   height: 50px;
 }
+.spangRed{COLOR:#FF0033;text-align=right; height:30px}
+.spanGreen{COLOR:#00ff99;text-align=right; height:30px}
+.spangBlue{COLOR:#3300FF;text-align=right; height:30px}
 .p0 { background-color:#CCCCFF;COLOR: #0;text-align=right; height:30px}
 .p1 { background-color:#CCFFFF;COLOR: #0 ;text-align=right; height:30px}
 .p2 { background-color:#CCCCFF;COLOR: #0;text-align=right; height:30px}
@@ -69,3 +74,29 @@
 .p9 {background-color:#ffcccc; COLOR:#0;text-align="right";height:30px}
 .p10 {background-color:#ccffcc; COLOR:#0;text-align="right";height:30px}
 .p11 {background-color:#ccccff; COLOR:#0;text-align="right";height:30px}
+input{
+	transition:all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	
+	border:#35a5e5 1px solid;
+	border-radius:3px;
+	outline:none;
+}
+input:focus{
+	box-shadow:0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow:0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow:0 0 5px rgba(81, 203, 238, 1);
+}
+.blueStyle{
+	text-decoration:none;
+	background:rgba(81, 203, 238, 1);
+	color:white;padding: 6px 25px 6px 25px;
+	font:12px '微软雅黑';
+	border-radius:3px;
+	
+	-webkit-transition:all linear 0.30s;
+	-moz-transition:all linear 0.30s;
+	transition:all linear 0.30s;
+}
+a:hover{background:rgba(39, 154, 187, 1);}

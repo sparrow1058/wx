@@ -1,6 +1,7 @@
 <?php
 
 require_once dirname (__FILE__).'/../common/Common.php';
+define("SSQDATA","SSQREMOTE");
 $ssqdata=array(
 	'num'=>001,
 	'R1'=>1,
@@ -11,27 +12,6 @@ $ssqdata=array(
 	'R6'=>3,
 	'B1'=>7
 	);
-function get_ssq_data($fileName)
-{
-	$file = file($fileName);
-	try{
-		$ssqDb=new SingleTableOperation("ssqdata","SSQ");
-		foreach($file as &$line){
-			$line=str_replace(" ","",$line);
-			$ssqdata=array('num'=>substr($line,0,5),'R1'=>substr($line,5,2),'R2'=>substr($line,7,2),'R3'=>substr($line,9,2),'R4'=>substr($line,11,2),
-					'R5'=>substr($line,13,2),'R6'=>substr($line,15,2),'B1'=>substr($line,17,2));
-
-		//	$ssqDb->addObject($ssqdata);
-				
-		}
-		$ret=$ssqDb->getObject(array('_sortExpress'=>' id desc','_limit'=>"4"));
-		//$ret=$ssqDb->getInsertId();
-	//	var_dump($ret);
-		//$ssqDb->getAll();
-	}catch (DB_Exception $e){
-		interface_log(ERROR,EC_DB_OP_EXCEPTION,"query db error".$e->getMessage());
-	}
-}
 class SSQLottery{
 	private $_content;
 	private $_index;
@@ -41,14 +21,15 @@ class SSQLottery{
 	public function init(){
 	//try query database
 		try{
-			$this->_oTable=new SingleTableOperation("ssqdata","SSQ");
+			$this->_oTable=new SingleTableOperation("ssqdata",SSQDATA);
 			$ret=$this->_oTable->getObject(array('_sortExpress'=>' id desc','_limit'=>1));
 			$this->_newestNum=$ret[0]['Num'];
 			$this->_newestId=$ret[0]['id'];
 			set_time_limit(0);
 		}catch(Exception $e){
-			interface_log(ERROR,EC_DB_OP_EXCEPTION,$e->getMessage());
-			return $this->makeFF_HINT(FF_HINT_INNER_ERROR);
+			//interface_log(ERROR,EC_DB_OP_EXCEPTION,$e->getMessage());
+			echo "database can't connected";
+			//return $this->makeFF_HINT(FF_HINT_INNER_ERROR);
 		}
 		return true;
 	}
@@ -101,9 +82,11 @@ class SSQLottery{
 			if($this->_newestNum<(int)(substr($line,0,5)))
 			{	
 				$this->_newestNum=substr($line,0,5);
+				$this->_newestId=$id;
 				$this->updateBaseData($id++,$line);	
 			}
 		}
+		
 	}
 	public function updateLostRtable(){
 //		if($num<$this->_newest)
@@ -229,6 +212,38 @@ class SSQLottery{
 		$this->_oTable->setTableName("ssqdata");	
 		$ret=$this->_oTable->getObject(array('num'=>$num,'_sortExpress'=>' id desc'));
 		return $ret;
+	}
+	function getBalls($nums)
+	{
+		$this->_oTable->setTableName("ssqdata");	
+		$ret=$this->_oTable->getObject(array('_limit'=>$nums,'_sortExpress'=>' id desc'));
+		//var_dump($ret);
+		return $ret;
+	}
+	function addOneNums($numstr)
+	{
+		$numstr=str_replace(" ","",$numstr);
+		$newNum=(int)(substr($numstr,0,5));
+		//echo "leaf ".$numstr."  ".strlen($numstr)." 1 ".$this->_newestNum." 2 ".$newNum;
+		if($this->_newestNum<$newNum)
+		{
+	
+			$this->_newestNum=$newNum;
+			$this->updateBaseData(++$this->_newestId,$numstr);
+			$this->updateLostRtable();
+			
+		}
+			
+	}
+	function delNewData()
+	{
+		$this->_oTable->setTableName("ssqdata");
+		$this->_oTable->delObject(array('Num'=>$this->_newestNum));
+		$this->_oTable->setTableName("lostRTable");
+		$this->_oTable->delObject(array('Num'=>$this->_newestNum));
+		$this->_newestNum--;
+		$this->_newestId--;
+		return 1;
 	}
 }
 

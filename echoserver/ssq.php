@@ -53,7 +53,8 @@ class ssq {
 			$this->_htmlClass->echoOneTR($css,$result,$this->_ncol);
 		}
 		$this->_htmlClass->showTableTail();
-	}	
+	}
+
 	
 }
 

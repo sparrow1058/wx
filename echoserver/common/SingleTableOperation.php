@@ -126,6 +126,7 @@ class SingleTableOperation{
 		$where =$this->_db->escape($where);
 		$tableName=$this->getTableName($where);
 		$sql= "DELETE FROM `{$tableName}` WHERE 1 " . $this->genFrontSql($where, ' AND ');
+	//	echo $sql;
 		return $this->_db->update($sql);
 	}
 	// 把key=>Value 的数组转化成后置连接字符串
