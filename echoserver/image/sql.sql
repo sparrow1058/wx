@@ -80,6 +80,13 @@ foreign key(user2) references cUser(userId)
 );
  SELECT * FROM ssqdata WHERE 1 AND `Num` > '350'
 DELETE FROM lostrtable WHERE id >350
+CREATE TABLE `ssqBTable`(
+	 id int(11) NOT NULL ,
+	 Num int(11) NOT NULL,
+	 BB int(3) NOT NULL,
+	 `RANGE` int(3) NOT NULL,
+	 DIFF int(2) NOT NULL
+	)
 
 CREATE TABLE `ssqdata` (
 	`id` int(11) NOT NULL ,
@@ -134,7 +141,7 @@ CREATE TABLE lostRTable(
 	 RL33 int(3) NOT NULL,
 	 CURLOST char(30) NOT NULL
 );
-CREATE TABLE lostBTable(
+CREATE TABLE ssqBTable(
 	 id int(11) NOT NULL AUTO_INCREMENT,
 	 Num int(11) NOT NULL,
 	 BL1 int(3) NOT NULL,

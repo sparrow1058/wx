@@ -1,7 +1,13 @@
 <?php
 
 require_once dirname (__FILE__).'/../common/Common.php';
-define("SSQDATA","SSQREMOTE");
+define ('SSQ_DATA',dirname (__FILE__)."/../image/Data.txt");
+$ip=gethostbyname($_ENV['COMPUTERNAME']);
+if($ip=="192.168.1.146")
+	define("SSQDATA","SSQLOCAL");
+else
+	define("SSQDATA","SSQREMOTE");
+
 $ssqdata=array(
 	'num'=>001,
 	'R1'=>1,
@@ -88,6 +94,59 @@ class SSQLottery{
 		}
 		
 	}
+	public function updateBBData($bbArray)
+	{
+
+		try{			
+			$ret=$this->_oTable->addObject($bbArray);
+		}catch (Exception $e){
+		
+		}
+	}
+	public function updateBTable()
+	{
+		try{
+			$this->_oTable->setTableName("ssqbtable");
+			$bNums=$this->getLastNum(1);
+			
+			$this->_oTable->setTableName("ssqdata");
+			$dataNums=$this->getLastNum(1);
+			//var_dump($lostNums);
+			//var_dump($dataNums);
+			if(!($bNums[0]['Num']<$dataNums[0]['Num'])){
+				echo "no need update BlueBalls <BR>";
+				return 0;
+			}else{
+				$gap=$dataNums[0]['id']-$bNums[0]['id'];
+				$id=$bNums[0]['id'];
+				//echo "****gap **id********".$gap." -- ".$id."<BR>";
+			}
+			$ret=$this->_oTable->getObject(array('id'=>$bNums[0]['id'],'_logic'=>">"));
+			$this->_oTable->setTableName("ssqbtable");
+			for($i=0;$i<$gap;$i++)
+			{
+				//$lostB[$i+$id+1]['id
+			//	$lostB[$i]['BB']=$ret[$i]['B1'];
+					
+				$range=	($ret[$i]['B1'])%4;
+				if($i<1)
+				{
+					$diff=$ret[$i]['B1']-$bNums[0]['BB'];
+				}else{
+					$diff=$ret[$i]['B1']-$ret[$i-1]['B1'];
+				}
+				$blueStr=array('id'=>$id+$i+1,'Num'=>$ret[$i]['Num'],'BB'=>$ret[$i]['B1'],
+								'RANGE'=>$range,'DIFF'=>$diff);
+								
+			//	var_dump($blueStr);
+				
+				$this->_oTable->addObject($blueStr);		
+			}
+		}catch (Exception $e){
+			
+		}
+		
+	}
 	public function updateLostRtable(){
 //		if($num<$this->_newest)
 	//		return 0;
@@ -105,7 +164,7 @@ class SSQLottery{
 		//var_dump($lostNums);
 		//var_dump($dataNums);
 		if(!($lostNums[0]['Num']<$dataNums[0]['Num'])){
-			echo "no need update <BR>";
+			echo "no need update  Rlost <BR>";
 			return 0;
 		}else{
 			$gap=$dataNums[0]['id']-$lostNums[0]['id'];
@@ -208,6 +267,41 @@ class SSQLottery{
 		}
 		return $ret;		
 	}
+	public function getRange($max){
+		$this->_oTable->setTableName("lostRTable");	//get the lost 
+		$lost=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
+		$this->_oTable->setTableName("ssqdata");	//get the lost 
+		$range=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
+		
+		for($i=0;$i<$max;$i++)
+		{
+			$result[$i]['Num']=$range[$i]['Num'];
+			$result[$i]['range']=$range[$i]['RANGE'];
+			$result[$i]['lost']=$lost[$i]['CURLOST'];
+		}
+		//var_dump($result);
+		return $result;		
+	}
+	public function getBballs($max){
+		$this->_oTable->setTableName("ssqbtable");	//get the lost 
+		$ret=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
+		for($i=0;$i<$max;$i++)
+		{
+			$result[$i]['Num']=$ret[$i]['Num'];
+			$result[$i]['BB']=$ret[$i]['BB'];
+			$result[$i]['DIFF']=$ret[$i]['DIFF'];
+			$result[$i]['RA0']="";
+			$result[$i]['RA1']="";
+			$result[$i]['RA2']="";
+			$result[$i]['RA3']="";
+			$RAN='RA'.$ret[$i]['RANGE'];
+			$result[$i][$RAN]="★";
+		}
+		//var_dump($result);
+		return $result;
+	}			
+	
+	
 	public function getRballs($num){
 		$this->_oTable->setTableName("ssqdata");	
 		$ret=$this->_oTable->getObject(array('num'=>$num,'_sortExpress'=>' id desc'));
@@ -231,6 +325,7 @@ class SSQLottery{
 			$this->_newestNum=$newNum;
 			$this->updateBaseData(++$this->_newestId,$numstr);
 			$this->updateLostRtable();
+			$this->updateBTable();
 			
 		}
 			

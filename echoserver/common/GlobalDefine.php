@@ -95,7 +95,7 @@ $GLOBALS['DB']=array(
 		'PASSWD'=>'',
 		'PORT'=>3306
 		),
-	'SSQLocal'=>array(
+	'SSQLOCAL'=>array(
 		'HOST'=>'localhost',
 		'DBNAME'=>'ssq',
 		'USER'=>'root',
@@ -112,7 +112,7 @@ $GLOBALS['DB']=array(
 		
 	);
  
- /*****************************************************/
+/*****************************************************/
 //For find face
 define('API_KEY', '69727bbe2424f4d740c9532963');
 define('API_SECRET', 'skt2kwE6gMDS5U_RBbqysIl_yLF');

@@ -33,6 +33,7 @@ class ssq {
 			case "update":
 				$this->_ssqDatabase->updateBaseDataFromFile(SSQ_DATA);	
 				$this->_ssqDatabase->updateLostRtable();
+				$this->_ssqDatabase->updateBTable();
 				break;
 		 }
 	}

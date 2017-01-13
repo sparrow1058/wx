@@ -4,13 +4,21 @@ require_once dirname (__FILE__).'./../class/SSQLottery.php';
 $action = $_GET['action'];
 $num=$_POST['num'];
 $jssocket=new JSSocket();
-	
 switch ($action){
-	case 'showrlost':
-		$jssocket->showRLost($num);
+	case 'showall':
+		$jssocket->showAllBalls();
 		break;
-	case 'shorblost':
-		$jssocket->showBLost($num);
+	case 'showsubrlost':
+		$jssocket->showSubRLost($num);
+		break;
+	case 'showrlost':
+		$jssocket->showRLost();
+		break;	
+	case 'showrange':
+		$jssocket->showRange();
+		break;
+	case 'showblue':
+		$jssocket->showBlue($num);
 		break;
 	case 'update':
 		$jssocket->showThreeNums();
@@ -20,6 +28,9 @@ switch ($action){
 		$num=$_POST['num'];
 		$data=$_POST['data'];		
 		$jssocket->addOneNums($user,$num,$data);
+		break;
+	case 'updateFromFile':
+		$jssocket->updateFromFile();
 		break;
 	case 'delnew':
 		$password=$_POST['password'];
@@ -31,14 +42,17 @@ switch ($action){
 class JSSocket{
 	private $_htmlClass;
 	private $_ssqDatabase;
-	private $_LMax;
+	private $_LMax=11;
+	private $_nper=6;
+	private $_nmax=13;
+	private $_ncol=10;
 	public function __construct(){
 		$this->_htmlClass=new ShowHtml();
 		$this->_ssqDatabase=new SSQLottery();
 		$this->_ssqDatabase->init();
-		$this->_LMax=11;
+		
 	}
-	public function showRLost($num){
+	public function showSubRLost($num){
 		$nums=$this->_ssqDatabase->getRballs($num);
 		$this->_htmlClass->showTableHead();
 		$trStr='<TR><TD  class=p8 colspan='.$this->_LMax.'>'.$num.'</TD> </TR>';
@@ -53,6 +67,16 @@ class JSSocket{
 
 		}	
 		$this->_htmlClass->showTableTail();
+	}
+	public function showBlue(){
+		$BLength=7;
+		$this->_htmlClass->showTableHead();
+		$trHead='<TR class=p7><TD>  </TD><TD>Num</TD><TD>DIFF</TD><TD>MOD0</TD><TD>MOD1</TD><TD>MOD2</TD><TD>MOD3</TD></TR>';
+		echo $trHead;
+		$result=$this->_ssqDatabase->getBballs($this->_LMax);
+		$this->_htmlClass->echoMultTRS($result,0,$BLength);
+		$this->_htmlClass->showTableTail();	
+		
 	}
 	public function showThreeNums()
 	{
@@ -77,6 +101,37 @@ class JSSocket{
 			echo 0;
 		}
 	}
+	public function updateFromFile(){
+		$this->_ssqDatabase->updateBaseDataFromFile(SSQ_DATA);	
+		$this->_ssqDatabase->updateLostRtable();
+		$this->_ssqDatabase->updateBTable();
+	}
 		
+	function showAllBalls()
+	{
+		$this->_htmlClass->showTableHead();
+		$result=$this->_ssqDatabase->getAllBalls($this->_nper);
+		$this->_htmlClass->echoMultTR($result,1,$this->_ncol);
+		$this->_htmlClass->showTableTail();
+	}
+	function showRLost()
+	{
+		$this->_htmlClass->showTableHead();
+		for($i=1;$i<34;$i++)
+		{
+			$result=$this->_ssqDatabase->getRLost($i,$this->_ncol-1);
+			$css='p'.($i%2);
+			$this->_htmlClass->echoOneTR($css,$result,$this->_ncol);
+		}
+		$this->_htmlClass->showTableTail();
+	}
+	function showRange()
+	{
+		$this->_htmlClass->showTableHead();
+		$result=$this->_ssqDatabase->getRange($this->_nmax);
+		$this->_htmlClass->echoMultTR($result,0,3);
+		$this->_htmlClass->showTableTail();
+
+	}
 }
 

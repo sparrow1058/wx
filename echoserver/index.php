@@ -15,13 +15,15 @@
 <div class="page">
 <div class="controls_ui">
 	<a href="index.php?index=allballs"><button type="button" class="button squarebig" id="bt_red">红球分析</button></a>
-	<a href="index.php?index=rlost"><button type="button" class="button squarebig" id="bt_blue">篮球分析</button></a>
-	<a href="index.php?index=blost"><button type="button" class="button squarebig" id="bt_range">区间分布</button></a>
+	<button type="button" class="button squarebig" id="bt_lost">遗漏统计</button>
+	<button type="button" class="button squarebig" id="bt_range">区间分布</button>
+	<button type="button" class="button squarebig" id="bt_blue">篮球分析</button>	
 	<button type="button" class="button squarebig" id="bt_update">数据更新</button>
 </div >
 <div id="maintable" class="datatable">
 <?php
 	require_once dirname (__FILE__).'/ssq.php';
+	$webIndex="allballs";
 	$webIndex=$_GET['index'];
 	$ssq=new ssq();
 	$ssq->init();
@@ -42,7 +44,7 @@
 			
 	</div>
 	<div>
-    <a href="#" class="blueStyle" style="height:30px">从文件更新数据</a><br><br>
+    <a href="#" id="bt_updateFromFile" class="blueStyle" style="height:30px">从文件更新数据</a><br><br>
 	</div>
 	<div>
 	<input id="t_user" type="text" placeholder="更新密钥"  style="height:30px"/><BR>

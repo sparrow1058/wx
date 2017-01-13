@@ -48,6 +48,28 @@ class ShowHtml{
 		}
 		
 	}
+	function echoMultTRS($array,$start,$length)
+	{
+		//var_dump($array);
+		$num=0;
+		foreach ($array as $tdline)
+		{
+			$num++;
+			$tdstr=array_values($tdline);
+			$css='p'.($num%2);
+		echo '<TR id='.$tdstr[$start].'>';
+			
+		for($i=0;$i<$length;$i++){
+			$tmpstr=str_pad($tdstr[$i+$start],2," ",STR_PAD_LEFT);
+			if($i>=7)
+				$css='p'.$i;
+			echo '<TD class='.$css.'>'.$tmpstr.'</TD>';
+		}
+	
+		echo '</TR>';
+		}
+		
+	}
 	function showRLostHead($max){
 		
 	//	$this->showWebHead();
@@ -58,12 +80,6 @@ class ShowHtml{
 	function showAllBallsHead(){
 		$this->echoOneTR(CSS3,$allBallsHead,count($allBallsHead,COUNT_NORMAL));
 		
-	}
-	function showProcessBar($cap){
-		   $pos=$cap*439;	
-		  $pos= round($pos)-420;
-		  echo '<div class="percents" style=#000000>' .round($cap*100).'%</div>';
- 		  echo '<div class="blocks" style="left: '.$pos.'px"> </div>';
 	}
 	
 }

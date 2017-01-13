@@ -31,7 +31,7 @@ $(document).ready(function(){
 	$("tr").bind("click",function(){
 	     var id=$(this).attr('id');
 		if(id>10000){
-			var URL = "./css/test.php?action=showrlost";
+			var URL = "./css/test.php?action=showsubrlost";
 				  $.ajax({
 					type: "POST",
 					url: URL,
@@ -44,6 +44,84 @@ $(document).ready(function(){
 				 });
 		}
 	});
+	$("#bt_updateFromFile").click(function(event){
+			var URL = "./css/test.php?action=updateFromFile";
+				  $.ajax({
+					type: "POST",
+					url: URL,
+					data:"",
+					success: function(msg){
+					}
+				
+				 });
+			 
+	});	
+	/*
+	$("#bt_red").click(function(event){
+			var URL = "./css/test.php?action=showall";
+				  $.ajax({
+					type: "POST",
+					url: URL,
+					data:"",
+					success: function(msg){
+						$("#maintable").html(msg);
+						$("#maintable").show();
+					}
+				
+				 });
+			 
+	});	
+*/
+	$("#bt_range").click(function(event){
+			var URL = "./css/test.php?action=showrange";
+				  $.ajax({
+					type: "POST",
+					url: URL,
+					data:"",
+					success: function(msg){
+						$("#subtable").hide();
+						$("#updatetable").hide();						
+						$("#maintable").html(msg);
+						$("#maintable").show()
+					}
+				
+				 });
+			 
+	});
+	$("#bt_lost").click(function(event){
+			var URL = "./css/test.php?action=showrlost";
+				  $.ajax({
+					type: "POST",
+					url: URL,
+					data:"",
+					success: function(msg){
+						$("#subtable").hide();
+						$("#updatetable").hide();						
+						$("#maintable").html(msg);
+						$("#maintable").show()
+								
+					}
+				
+				 });
+			 
+	});	
+	$("#bt_blue").click(function(event){
+			
+			var URL = "./css/test.php?action=showblue";
+				  $.ajax({
+					type: "POST",
+					url: URL,
+					data:"",
+					success: function(msg){
+						$("#subtable").hide();
+						$("#updatetable").hide();						
+						$("#maintable").html(msg);
+						$("#maintable").show();						
+						}
+				
+				 });
+			 
+	});	
 	$("#bt_ok").click(function(event){
 			var user=$("#t_user").val();
 			var num=$("#t_num").val();
@@ -74,14 +152,10 @@ $(document).ready(function(){
 						if(msg==1)
 							$("#bt_update").trigger("click");
 						//	document.getElementById("bt_update").click();
-								
-						
-							
 					}
 				
 				 });
 	});
-	
 });
 function strPad(num, length) {  
  return ( "0000000000000000" + num ).substr( -length );  
