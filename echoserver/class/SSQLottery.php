@@ -7,7 +7,8 @@ if($ip=="192.168.1.146")
 	define("SSQDATA","SSQLOCAL");
 else
 	define("SSQDATA","SSQREMOTE");
-
+define('SSQ_BTABLE',"ssqBTable");
+define('SSQ_RTABLE',"lostRTable");
 $ssqdata=array(
 	'num'=>001,
 	'R1'=>1,
@@ -106,7 +107,7 @@ class SSQLottery{
 	public function updateBTable()
 	{
 		try{
-			$this->_oTable->setTableName("ssqbtable");
+			$this->_oTable->setTableName(SSQ_BTABLE);
 			$bNums=$this->getLastNum(1);
 			
 			$this->_oTable->setTableName("ssqdata");
@@ -122,7 +123,7 @@ class SSQLottery{
 				//echo "****gap **id********".$gap." -- ".$id."<BR>";
 			}
 			$ret=$this->_oTable->getObject(array('id'=>$bNums[0]['id'],'_logic'=>">"));
-			$this->_oTable->setTableName("ssqbtable");
+			$this->_oTable->setTableName(SSQ_BTABLE);
 			for($i=0;$i<$gap;$i++)
 			{
 				//$lostB[$i+$id+1]['id
@@ -156,7 +157,7 @@ class SSQLottery{
 	//		echo $lost[$j];
 		try{
 		//	$ret=$this->_oTable->getObject(array('R1'=>1'));
-		$this->_oTable->setTableName("lostRTable");
+		$this->_oTable->setTableName(SSQ_RTABLE);
 		$lostNums=$this->getLastNum(1);
 		
 		$this->_oTable->setTableName("ssqdata");
@@ -178,7 +179,7 @@ class SSQLottery{
 		
 		//$ret=$this->_oTable->getObject(array('id'=>$lostNums[0]['id'],'_sortExpress'=>' id desc','_logic'=>">"));
 		$ret=$this->_oTable->getObject(array('id'=>$lostNums[0]['id'],'_logic'=>">"));
-		$this->_oTable->setTableName("lostRTable");
+		$this->_oTable->setTableName(SSQ_RTABLE);
 
 		//foreach ($ret[i] as list($id,$num,$r1,$r2,$r3, $r4,$r5, $r6))
 			//echo $id.$num.$r1.$r2.$r3.$r4.$r5.$r6;
@@ -239,7 +240,7 @@ class SSQLottery{
 	public function getRLost($num,$max){
 		$field='RL'.$num;
 		$result[0]=$num;
-		$this->_oTable->setTableName("lostRTable");	
+		$this->_oTable->setTableName(SSQ_RTABLE);	
 		$ret=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
 		$currentLost=$ret[0][$field];
 		
@@ -259,7 +260,7 @@ class SSQLottery{
 		$ret=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
 		
 		$preNum=$ret[1]['Num'];
-		$this->_oTable->setTableName("lostRTable");	//get the lost 
+		$this->_oTable->setTableName(SSQ_RTABLE);	//get the lost 
 		$lost=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
 		for($i=0;$i<$max;$i++)
 		{
@@ -268,7 +269,7 @@ class SSQLottery{
 		return $ret;		
 	}
 	public function getRange($max){
-		$this->_oTable->setTableName("lostRTable");	//get the lost 
+		$this->_oTable->setTableName(SSQ_RTABLE);	//get the lost 
 		$lost=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
 		$this->_oTable->setTableName("ssqdata");	//get the lost 
 		$range=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
@@ -283,7 +284,7 @@ class SSQLottery{
 		return $result;		
 	}
 	public function getBballs($max){
-		$this->_oTable->setTableName("ssqbtable");	//get the lost 
+		$this->_oTable->setTableName(SSQ_BTABLE);	//get the lost 
 		$ret=$this->_oTable->getObject(array('_limit'=>$max,'_sortExpress'=>' id desc'));
 		for($i=0;$i<$max;$i++)
 		{
@@ -334,7 +335,7 @@ class SSQLottery{
 	{
 		$this->_oTable->setTableName("ssqdata");
 		$this->_oTable->delObject(array('Num'=>$this->_newestNum));
-		$this->_oTable->setTableName("lostRTable");
+		$this->_oTable->setTableName(SSQ_RTABLE);
 		$this->_oTable->delObject(array('Num'=>$this->_newestNum));
 		$this->_newestNum--;
 		$this->_newestId--;

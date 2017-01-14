@@ -9,7 +9,7 @@
 	<script src="./css/jquery.min.js" type="text/javascript"></script>
 	<script src="./css/Global.js" type="text/javascript"></script>
 
-</script>	
+</script>
 </head>
 <body>
 <div class="page">
@@ -17,7 +17,7 @@
 	<a href="index.php?index=allballs"><button type="button" class="button squarebig" id="bt_red">红球分析</button></a>
 	<button type="button" class="button squarebig" id="bt_lost">遗漏统计</button>
 	<button type="button" class="button squarebig" id="bt_range">区间分布</button>
-	<button type="button" class="button squarebig" id="bt_blue">篮球分析</button>	
+	<button type="button" class="button squarebig" id="bt_blue">篮球分析</button>
 	<button type="button" class="button squarebig" id="bt_update">数据更新</button>
 </div >
 <div id="maintable" class="datatable">
@@ -27,7 +27,7 @@
 	$webIndex=$_GET['index'];
 	$ssq=new ssq();
 	$ssq->init();
-	$ssq->showWeb($webIndex);	
+	$ssq->showWeb($webIndex);
 ?>
 
 </div>
@@ -36,12 +36,12 @@
 		<ol class="rounded-list">
 			<li id="ssqnum1"><a href="#">List item</a><span></li>
 			<li id="ssqnum2"><a href="#">List item</a></li>
-			<li id="ssqnum3"><a href="#">List item</a></li>	
+			<li id="ssqnum3"><a href="#">List item</a></li>
 			<span  id="bt_del" class="blueStyle" >删除最新行</span>
 			<input id="t_password" type="text" placeholder="验证密码"  style="height:30px"/>
-			
+
 		</ol>
-			
+
 	</div>
 	<div>
     <a href="#" id="bt_updateFromFile" class="blueStyle" style="height:30px">从文件更新数据</a><br><br>
@@ -50,12 +50,13 @@
 	<input id="t_user" type="text" placeholder="更新密钥"  style="height:30px"/><BR>
 	<input id="t_num" type="text" placeholder="期数"  style="height:30px"/><BR>
 	<input id="t_data" type="text" placeholder="数据"  style="height:30px"/><br><BR>
-	<a href="#" id="bt_ok" class="blueStyle" >确认更新</a>
+	<a href="#" id="bt_ok" class="blueStyle" >确认更新</a><BR><BR>
+	<a href="./echart/index.html" id="bt_chart" class="blueStyle" >图形模式</a>
 	</div>
 
-	
+
 </div>
-<div  id="subtable">
+<div  id="subtable" >
 
 </div>
 

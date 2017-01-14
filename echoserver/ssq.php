@@ -35,6 +35,9 @@ class ssq {
 				$this->_ssqDatabase->updateLostRtable();
 				$this->_ssqDatabase->updateBTable();
 				break;
+			default:
+				$this->showAllBalls();
+				break;
 		 }
 	}
 	function showAllBalls()

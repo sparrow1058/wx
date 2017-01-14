@@ -36,6 +36,9 @@ switch ($action){
 		$password=$_POST['password'];
 		$jssocket->delNewData($password);
 		break;
+	case 'test':
+		$jssocket->getBlueBallChart();
+		break;
 	default :
 		break;
 }
@@ -132,6 +135,12 @@ class JSSocket{
 		$this->_htmlClass->echoMultTR($result,0,3);
 		$this->_htmlClass->showTableTail();
 
+	}
+	function getBlueBallChart()
+	{
+		$result=$this->_ssqDatabase->getBballs(28);
+		echo json_encode($result);
+		
 	}
 }
 
