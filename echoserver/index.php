@@ -5,34 +5,62 @@
 	<title>Lottery</title>
 	<link rel="stylesheet" type="text/css" href="html/mycss.css">
 	<link rel="stylesheet" type="text/css" href="html/list.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<script src="./css/jquery.min.js" type="text/javascript"></script>
 	<script src="./css/Global.js" type="text/javascript"></script>
+	<script src="./css/echarts.js" type="text/javascript"></script>
+	<script src="./css/mycharts.js" type="text/javascript"></script>
 
 </script>
 </head>
 <body>
 <div class="page">
-<div class="controls_ui">
-	<a href="index.php?index=allballs"><button type="button" class="button squarebig" id="bt_red">红球分析</button></a>
-	<button type="button" class="button squarebig" id="bt_lost">遗漏统计</button>
-	<button type="button" class="button squarebig" id="bt_range">区间分布</button>
-	<button type="button" class="button squarebig" id="bt_blue">篮球分析</button>
-	<button type="button" class="button squarebig" id="bt_update">数据更新</button>
-</div >
-<div id="maintable" class="datatable">
+        <div class="container" id="mainmenu" role="main">
+            <ul class="menu">
+                <li><a href="#">基本走势</a>
+                    <ul class="submenu">
+						 <li><a id="bt_current">近期分布</a></li>
+                        <li><a id="bt_lost" href="#">红球遗漏</a></li>
+                        <li><a id="bt_range" href="#">红球区间</a></li>						
+                        <li><a id="bt_blue" href="#">篮球差值</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">图形分析</a>
+                    <ul class="submenu">
+                        <li><a id="bt_redlost" href="#">红球遗漏</a></li>
+						<li><a id="bt_bluediff" href="#">篮球差值</a></li>
+                        <li><a id="bt_bluerange" href="#">篮球区间</a></li>						
+                    </ul>
+				</li>	
+				<li><a href="#">系统设置</a>
+				     <ul class="submenu">
+                        <li><a id="bt_updateFromFile" href="#">文件更新</a></li>
+						<li><a id="bt_updateManual" href="#">手动更新</a></li>
+                        <li><a id="bt_delNewest" href="#">删除最新</a></li>						
+                    </ul>
+				</li>
+			</ul>
+		</div>
+<div id="mainpage" style="width:100%">		
+<div id="curTable" class="datatable">
 <?php
 	require_once dirname (__FILE__).'/ssq.php';
 	$webIndex="allballs";
-	$webIndex=$_GET['index'];
+	//$webIndex=$_GET['index'];
 	$ssq=new ssq();
 	$ssq->init();
 	$ssq->showWeb($webIndex);
 ?>
 
+</div>		
+<div  id="subtable" style="width:100%;height:400px;" >
+
+</div>		
+<div id="maintable" class="datatable" style="width:100%;height:400px;">
+
 </div>
 <div id="updatetable" style="width:520px;height:34px">
-	<div>
 		<ol class="rounded-list">
 			<li id="ssqnum1"><a href="#">List item</a><span></li>
 			<li id="ssqnum2"><a href="#">List item</a></li>
@@ -42,26 +70,15 @@
 
 		</ol>
 
-	</div>
-	<div>
-    <a href="#" id="bt_updateFromFile" class="blueStyle" style="height:30px">从文件更新数据</a><br><br>
-	</div>
-	<div>
-	<input id="t_user" type="text" placeholder="更新密钥"  style="height:30px"/><BR>
-	<input id="t_num" type="text" placeholder="期数"  style="height:30px"/><BR>
-	<input id="t_data" type="text" placeholder="数据"  style="height:30px"/><br><BR>
-	<a href="#" id="bt_ok" class="blueStyle" >确认更新</a><BR><BR>
-	<a href="./echart/index.html" id="bt_chart" class="blueStyle" >图形模式</a>
-	</div>
+		<input id="t_user" type="text" placeholder="更新密钥"  style="height:30px"/><BR>
+		<input id="t_num" type="text" placeholder="期数"  style="height:30px"/><BR>
+		<input id="t_data" type="text" placeholder="数据"  style="height:30px"/><br><BR>
+		<a href="#" id="bt_ok" class="blueStyle" >确认更新</a><BR><BR>
+
 
 
 </div>
-<div  id="subtable" >
 
 </div>
-
-<div style="text-align:center;clear:both">
-</div>
-
 </body>
 </html>

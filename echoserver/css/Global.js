@@ -1,4 +1,11 @@
 //Global.js
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?968aeed2e4df2375de15e66173e684f3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 $(document).ready(function(){
 /*
 	document.onclick = function(e){
@@ -7,12 +14,10 @@ $(document).ready(function(){
 					alert(target.id)
             }
 */	document.getElementsByTagName( 'body' )[0].bgColor="#35393d";
-	$("#updatetable").hide();
-	$("#bt_update").click(function(event) {
+	$("#bt_updateManual").click(function(event) {
 		var jsonData="";
 		var ssqnum="ssqnum1";
-		$("#maintable").hide();
-		$("#subtable").hide();
+		hideAllDiv();
 		$("#updatetable").show();
 		$.getJSON("./css/test.php?action=update",function(json){
 			//<a href="#">List item</a>
@@ -28,6 +33,14 @@ $(document).ready(function(){
 		
 		});
 	});
+	$("#bt_current").click(function(event){
+				
+				hideAllDiv();
+				$("#curTable").show();
+				
+		
+	});
+	
 	$("tr").bind("click",function(){
 	     var id=$(this).attr('id');
 		if(id>10000){
@@ -37,7 +50,8 @@ $(document).ready(function(){
 					url: URL,
 					data: "&num="+id,
 					success: function(msg){
-						$("#subtable").html(msg);	
+						$("#subtable").html(msg);
+						$("#subtable").show();		
 
 					}
 				
@@ -56,22 +70,7 @@ $(document).ready(function(){
 				 });
 			 
 	});	
-	/*
-	$("#bt_red").click(function(event){
-			var URL = "./css/test.php?action=showall";
-				  $.ajax({
-					type: "POST",
-					url: URL,
-					data:"",
-					success: function(msg){
-						$("#maintable").html(msg);
-						$("#maintable").show();
-					}
-				
-				 });
-			 
-	});	
-*/
+
 	$("#bt_range").click(function(event){
 			var URL = "./css/test.php?action=showrange";
 				  $.ajax({
@@ -79,8 +78,7 @@ $(document).ready(function(){
 					url: URL,
 					data:"",
 					success: function(msg){
-						$("#subtable").hide();
-						$("#updatetable").hide();						
+						hideAllDiv();					
 						$("#maintable").html(msg);
 						$("#maintable").show()
 					}
@@ -95,8 +93,7 @@ $(document).ready(function(){
 					url: URL,
 					data:"",
 					success: function(msg){
-						$("#subtable").hide();
-						$("#updatetable").hide();						
+						hideAllDiv();							
 						$("#maintable").html(msg);
 						$("#maintable").show()
 								
@@ -113,8 +110,7 @@ $(document).ready(function(){
 					url: URL,
 					data:"",
 					success: function(msg){
-						$("#subtable").hide();
-						$("#updatetable").hide();						
+						hideAllDiv();							
 						$("#maintable").html(msg);
 						$("#maintable").show();						
 						}
@@ -134,7 +130,7 @@ $(document).ready(function(){
 					data:"user="+user+"&num="+trim(num)+"&data="+trim(data),
 					success: function(msg){
 						$("#subtable").html(msg);	
-						$("#bt_update").trigger("click");		
+						$("#bt_updateManual").trigger("click");		
 					}
 				
 				 });
@@ -150,7 +146,7 @@ $(document).ready(function(){
 					data:"password="+password,
 					success: function(msg){
 						if(msg==1)
-							$("#bt_update").trigger("click");
+							$("#bt_updateManual").trigger("click");
 						//	document.getElementById("bt_update").click();
 					}
 				
@@ -163,4 +159,7 @@ function strPad(num, length) {
 function trim(str) {
   return str.replace(/[^0-9]/g, "");
 } 
-	
+function hideAllDiv(){
+	$("#mainpage").find("div").hide();
+//	document.getElementsByTagName('div').hide();
+}
